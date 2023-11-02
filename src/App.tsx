@@ -1,7 +1,5 @@
-import "./App.css";
-import Section1 from "Sections/1";
-
 import Header from "Sections/Header";
+import Section1 from "Sections/1";
 import Section2 from "Sections/2";
 import Section3 from "Sections/3";
 import Section4 from "Sections/4";
