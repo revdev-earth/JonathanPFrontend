@@ -2,7 +2,7 @@ const Section2 = () => {
   return (
     <div className=" p-24 pt-32">
       <div>
-        <div className="relative flex gap-4 ml-2 pl-12 pt-[76px] w-[1237px] h-[600px] bg-[#092435] text-white font-bold rounded-2xl">
+        <div className="relative flex gap-4 ml-2 pl-12 pr-[34px] pt-[76px] w-[1237px] h-[600px] bg-[#092435] text-white font-bold rounded-2xl">
           <div
             className="
               absolute
@@ -16,7 +16,7 @@ const Section2 = () => {
             ¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado
             hasta aquí!!
           </div>
-          <div className="flex flex-col gap-6 w-2/4">
+          <div className="flex flex-col gap-6 w-2/4 ">
             <div className="w-[500px]  text-[42px] font-bold leading-[54px]">
               Querido viajero y sembrador en el tiempo,
             </div>
@@ -43,7 +43,7 @@ const Section2 = () => {
               </button>
             </div>
           </div>
-          <div>
+          <div className="pt-1">
             <img src="/section2/schedule.png" alt="schedule" />
           </div>
         </div>
