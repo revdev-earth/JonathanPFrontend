@@ -45,9 +45,13 @@ const Card = () => {
 
 const Section5 = () => {
   return (
-    <div>
-      <div>Esta es la transformación que necesitas, si te sientes así:</div>
-      <div>
+    <div className="flex flex-col min-h-[800px] py-32 gap-20">
+      <div className="w-max m-auto text-6xl text-center font-bold">
+        Esta es la transformación que
+        <br />
+        necesitas, si te sientes así:
+      </div>
+      <div className="grid grid-cols-3 items-center">
         {CardsInfo.map((_data, index) => (
           <Card key={index} />
         ))}
