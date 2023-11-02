@@ -24,3 +24,7 @@
     background-color: #ffffff;
   }
 }
+
+div {
+  cursor: default;
+}
