@@ -2,24 +2,24 @@ const Header = () => {
   return (
     <div className="flex items-center  justify-between
                   h-[88px] px-[20px]
-                  lg:h-[120px]  lg:px-24
+                  md:h-[120px]  lg:px-24
                   bg-[#092435]">
-      <div className="flex items-center gap-[18px]">
-        <div className="w-[111px] h-[69px]">
+      <div className="flex items-center gap-[18px] md:gap-[30px]">
+        <div className="w-[111px] md:w-[178px] h-[69px] md:h-[111px]">
           <img src="/header/logo.png" alt="logo" />
         </div>
-        <div className="flex gap-[13px] h-[13px]">
+        <div className="flex gap-[13px] md:gap-[21px] h-[13px] md:h-[20px]">
           <img src="/header/linkedin.png" alt="Linkedin" />
           <img src="/header/instagram.png" alt="Instagram" />
           <img src="/header/facebook.png" alt="facebook" />
           <img src="/header/tiktok.png" alt="Tiktok" />
         </div>
       </div>
-        <div className="">
+        <div className=" md:hidden">
           <img src="/header/hamburger.png" alt="Tiktok" />
         </div>
 
-      <div className="hidden text-white gap-7 items-center">
+      <div className="hidden md:flex text-white gap-7 items-center text-xl">
         <div>Inicio</div>
         <div>Método</div>
         <div>Planes</div>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <a
           href="/"
-          className="flex items-center uppercase px-4 h-10 border-2 rounded-md border-[#2ABA64]"
+          className="flex items-center uppercase px-6 h-10 border-2 rounded-md border-[#2ABA64]"
         >
           Asesoria - Free
         </a>
