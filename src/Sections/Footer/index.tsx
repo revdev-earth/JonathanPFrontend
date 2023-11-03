@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="h-[260px] bg-[#092435] flex justify-between px-20">
         <div className="flex justify-center items-center">
           <img
-            src="src/assets/footer/logo-footer.png"
+            src="/footer/logo-footer.png"
             alt="logo footer"
             className="w-[487px] h-[152px]"
           />

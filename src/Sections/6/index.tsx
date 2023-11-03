@@ -33,7 +33,7 @@ const Card = ({
       <div className="p-10 flex-1">{content}</div>
 
       <div className="p-5 flex flex-col gap-2 items-center bg-[#071E2C] text-white">
-        <img src="src/assets/section6/stars.png" alt="start" />
+        <img src="/section6/stars.png" alt="start" />
         <div>{name}</div>
         <div>{profesion}</div>
       </div>

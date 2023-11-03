@@ -42,7 +42,7 @@ const Section2 = () => {
             </div>
           </div>
           <div>
-            <img src="/src/assets/schedule.png" alt="schedule" />
+            <img src="/section2/schedule.png" alt="schedule" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ const Section3 = () => {
     <div className="min-h-[800px] bg-[#092435] px-24 py-12 relative">
       <div>
         <img
-          src="src/assets/section3/vector-izquierda-section-3.png"
+          src="/section3/vector-izquierda-section-3.png"
           alt="logo"
           className="
             absolute left-0 top-0
@@ -13,7 +13,7 @@ const Section3 = () => {
         />
 
         <img
-          src="src/assets/section3/vector-derecha-section-3.png"
+          src="/section3/vector-derecha-section-3.png"
           alt="logo"
           className="
             absolute right-0 top-0
@@ -38,7 +38,7 @@ const Section3 = () => {
               "
             >
               <img
-                src="src/assets/section3/logo-section-3.png"
+                src="/section3/logo-section-3.png"
                 alt="logo"
                 className="max-w-none w-[300px] min-h-[100px] h-[100px] "
               />
@@ -65,7 +65,7 @@ const Section3 = () => {
               "
             >
               <img
-                src="src/assets/section3/logo-fotosintesis-section-3.png"
+                src="/section3/logo-fotosintesis-section-3.png"
                 alt="logo"
                 className="max-w-none w-[300px] min-h-[100px] h-[100px] "
               />
