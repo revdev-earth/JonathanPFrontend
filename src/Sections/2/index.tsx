@@ -10,17 +10,19 @@ const Section2 = () => {
               flex items-center
               h-16 w-max px-10
               bg-gradient-to-r from-cyan-500 to-blue-500
-              font-bold rounded-xl text-2xl text-[#092435]
+              font-gopher font-bold rounded-xl text-2xl text-[#092435]
           "
           >
             ¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado
             hasta aquí!!
           </div>
           <div className="flex flex-col gap-6 w-2/4 ">
-            <div className="w-[500px]  text-[42px] font-bold leading-[54px]
+            <div
+              className="w-[500px]  text-[42px] font-bold leading-[54px]
                           bg-clip-text         
                           text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
-            ">
+              "
+            >
               Querido viajero y sembrador en el tiempo,
             </div>
             <div className="flex flex-col gap-4 w-[500px] text-[18px] leading-[25px] font-normal">
@@ -41,11 +43,13 @@ const Section2 = () => {
               </p>
             </div>
             <div>
-              <button className="flex items-center 
+              <button
+                className="flex items-center 
                                 mt-[7px] px-4 h-10 
                                 uppercase text-xs font-bold 
                                 tracking-[.45em]
-                                border-2 rounded-md border-[#2ABA64]">
+                                border-2 rounded-md border-[#2ABA64]"
+              >
                 QUIERO VER LOS PLANES
               </button>
             </div>
