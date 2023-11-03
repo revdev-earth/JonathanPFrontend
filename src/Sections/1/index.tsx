@@ -5,7 +5,7 @@ const Section1 = () => {
     <div
       className="flex relative
         min-h-[577px] px-24 pt-[72px]
-        bg-[url('src/assets/hero/hero-bg.png')]
+        bg-[url('/section1/hero-bg.png')]
         border-b-[10px] 
         after:content-['*'] after:absolute 
         after:bottom-[-10px] after:left-0 
