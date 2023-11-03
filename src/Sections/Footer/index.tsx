@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="font-nunito">
+    <div className="font-nunito bg-[url('/footer/bg-footer.png')]">
       <div
         className="h-[6px] md:h-[11px] w-full 
           bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
