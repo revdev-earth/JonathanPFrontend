@@ -28,3 +28,19 @@
 div {
   cursor: default;
 }
+
+.carta .imagen_carta {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.6s;
+}
+
+.carta:hover .imagen_carta {
+  transform:  scale(1.2); 
+}
+
+.carta:hover .contenido_carta {
+  transform: scale(0); 
+
+}

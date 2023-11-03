@@ -45,13 +45,16 @@ const Card = ({
       className="
             flex flex-col relative
             items-center
-            h-[315px] w-[330px]
-            overflow-hidden rounded-xl
+            h-[315px] w-[334px]
+            overflow-hidden rounded-xl carta
           "
     >
-      <img src={imgSrc} alt={title} />
+      <img src={imgSrc} alt={title} className="imagen_carta"/>
 
-      <div className="absolute min-h-2/4 bottom-0 text-white bg-[#092435] p-6">
+      <div className="absolute bottom-0 min-h-2/4 p-6 bg-[#092435] text-white 
+                    transition duration-150 ease-out 
+                    hover:text-red-700 contenido_carta
+      ">
         <div>{title}</div>
         <div>{content}</div>
       </div>
@@ -61,16 +64,23 @@ const Card = ({
 
 const Section4 = () => {
   return (
-    <div className="flex flex-col min-h-[800px] py-32 gap-20">
-      <div className="w-max m-auto text-6xl text-center font-bold">
-        <div>Método de transformación</div>
+    <div className="flex flex-col min-h-[800px] py-[85px] px-[165px] gap-[50px]">
+      <div className="flex flex-col gap-4 w-max m-auto text-6xl text-center font-bold">
+        <div className=" relative
+              after:content-[''] after:absolute 
+              after:bottom-[-10px] after:left-0 
+              after:h-[10px] after:w-full
+              after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF]
+        ">
+          Método de transformación
+          </div>
         <div>enfocado en descubrir:</div>
       </div>
 
       <div className="grid grid-cols-3 items-center">
         <div
           className="
-            flex flex-col gap-10
+            flex flex-col gap-[70px]
             items-center
           "
         >
@@ -87,7 +97,7 @@ const Section4 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-10
+            flex flex-col gap-[70px]
             items-center
           "
         >
