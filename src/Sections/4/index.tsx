@@ -61,16 +61,16 @@ const Card = ({
 
 const Section4 = () => {
   return (
-    <div className="flex flex-col min-h-[800px] py-32 gap-20">
-      <div className="w-max m-auto text-6xl text-center font-bold">
+    <div className="flex flex-col min-h-[800px] py-1 pb-[35px] md:py-32 gap-5 md:gap-20">
+      <div className="w-max m-auto text-2xl md:text-6xl text-center font-bold tracking-[.04rem]" >
         <div>Método de transformación</div>
         <div>enfocado en descubrir:</div>
       </div>
 
-      <div className="grid grid-cols-3 items-center">
+      <div className="grid  grid-cols-1 gap-5 md:grid-cols-3 items-center mt-1">
         <div
           className="
-            flex flex-col gap-10
+            flex flex-col gap-5 md:gap-10
             items-center
           "
         >
@@ -87,7 +87,7 @@ const Section4 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-10
+            flex flex-col gap-5 md:gap-10
             items-center
           "
         >

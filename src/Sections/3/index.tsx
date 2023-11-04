@@ -1,6 +1,6 @@
 const Section3 = () => {
   return (
-    <div className="m-5 md:m-0 mt-2 md:min-h-[800px] bg-[#092435] md:px-24 rounded-lg md:rounded-none py-12 pb-8 md:py-16  md:pb-[68px] relative">
+    <div className="m-5 md:m-0 mt-2 md:min-h-[800px] bg-[#092435] md:px-24 rounded-lg md:rounded-none py-12 pb-7 md:py-16  md:pb-[68px] relative">
       <div>
         <img
           src="/section3/vector-izquierda-section-3.png"
