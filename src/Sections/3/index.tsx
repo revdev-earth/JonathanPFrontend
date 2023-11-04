@@ -1,14 +1,14 @@
 const Section3 = () => {
   return (
-    <div className="min-h-[800px] bg-[#092435] px-24 py-12 relative">
+    <div className="m-5 mt-8 md:min-h-[800px] bg-[#092435] md:px-24 rounded-lg py-12 pb-8 relative">
       <div>
         <img
           src="/section3/vector-izquierda-section-3.png"
           alt="logo"
           className="
             absolute left-0 top-0
-                          w-[180px] max-w-none
-            min-h-[210px] h-[213px] 
+            w-[58px] h-[81px] md:w-[180px] max-w-none
+            md:min-h-[210px] md:h-[213px] 
           "
         />
 
@@ -16,31 +16,32 @@ const Section3 = () => {
           src="/section3/vector-derecha-section-3.png"
           alt="logo"
           className="
-            absolute right-0 top-0
-                          w-[200px] max-w-none
-            min-h-[164px] h-[164px] 
+            absolute right-0 top-1 md:top-0
+            w-[58px] h-[55px] md:w-[200px] max-w-none
+            md:min-h-[164px] md:h-[164px] 
           "
         />
       </div>
-      <div className="flex flex-col gap-12 text-white">
-        <div className="flex flex-col text-white items-center h-[97px]">
+      <div className="flex flex-col items-center  gap-6 md:gap-12 text-white ">
+        <div className="flex flex-col text-white text-center md:items-center md:h-[97px] text-xl leading-[22px] font-gopher font-bold">
           <div>Emprendedor digital, </div>
           <div>Especialista en Life Coaching,</div>
           <div>Proyector de Vida, Formador.</div>
         </div>
 
-        <div className="flex flex-col gap-12">
-          <div className="flex gap-10">
+        <div className="flex flex-col items-center gap-10 md:gap-12 ">
+          <div className="flex flex-col items-center md:flex-row gap-2 md:gap-10 box-content px-5 text-base font-normal font-nunito leading-[21px]">
             <div
               className="
-                flex justify-center items-center
-                min-w-[400px] min-h-[200px] bg-[#FFFAEB] rounded-lg
+                flex  justify-center items-center box-content
+                w-[206px] h-[97px] 
+                md:min-w-[400px] md:min-h-[200px] bg-[#FFFAEB] rounded-lg
               "
             >
               <img
                 src="/section3/logo-section-3.png"
                 alt="logo"
-                className="max-w-none w-[300px] min-h-[100px] h-[100px] "
+                className="max-w-none w-[150px] md:w-[300px] md:min-h-[100px] h-[51px] md:h-[100px] "
               />
             </div>
             <div>
@@ -57,21 +58,21 @@ const Section3 = () => {
             </div>
           </div>
 
-          <div className="flex gap-10">
+          <div className="flex flex-col items-center md:flex-row gap-3 md:gap-10 box-content px-5 pr-2 text-base font-normal font-nunito leading-[21px]">
             <div
               className="
-                flex justify-center items-center
-                min-w-[400px] min-h-[200px] bg-[#FFFAEB] rounded-lg
+                flex justify-center items-center mr-3
+                w-[223px] h-[122px] md:min-w-[400px] md:min-h-[200px] bg-[#FFFAEB] rounded-lg
               "
             >
               <img
                 src="/section3/logo-fotosintesis-section-3.png"
                 alt="logo"
-                className="max-w-none w-[300px] min-h-[100px] h-[100px] "
+                className="max-w-none w-[176px] md:w-[300px] md:min-h-[100px] h-[56px] md:h-[100px] "
               />
             </div>
             <div>
-              <ul>
+              <ul className="flex flex-col gap-[10px]">
                 <li>
                   • Al igual que la fotosíntesis, el crecimiento personal es un
                   proceso que requiere tiempo, dedicación у paciencia.{" "}
@@ -95,6 +96,10 @@ const Section3 = () => {
             </div>
           </div>
         </div>
+        <button className="inline-block uppercase mx-4 md:m-0  md:w-auto px-4 h-10 text-center border-2 rounded-md border-[#2ABA64] tracking-[.15em]">
+          VER PLANES AHORA
+        </button>
+                
       </div>
     </div>
   );
