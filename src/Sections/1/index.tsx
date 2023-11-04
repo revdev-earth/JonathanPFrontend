@@ -6,7 +6,7 @@ const Section1 = () => {
       className="flex md:items-start  
         h-[374px] px-[20px] py-[40px]
         md:py-[72px]
-        md:min-h-[500px] md:px-24 relative
+        md:min-h-[567px] md:px-24 relative
         bg-[url('/section1/hero-bg.png')]
         after:content-['*'] after:absolute 
         after:bottom-[-10px] after:left-0 
