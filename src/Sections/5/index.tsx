@@ -1,3 +1,7 @@
+import { useState } from "react";
+import Modal from "./components/Modal";
+import { ModalData } from "./components/ModalData";
+
 const CardsInfo = [
   {
     text1: "Programa de 6 Sesiones",
@@ -53,12 +57,14 @@ const Card = ({
   price,
   list,
   recommended,
+  openModal,
 }: {
   text1: string;
   text2: string;
   price: number;
   list: string[];
   recommended: boolean;
+  openModal: () => void;
 }) => {
   return (
     <div
@@ -108,7 +114,10 @@ const Card = ({
           </ul>
         </div>
         <div className="flex flex-col gap-[13px] w-full px-[32px] mt-[10px] mb-[28px]">
-          <button className="bg-[#09202E] w-full h-[40px] rounded-md shadow-lg">
+          <button
+            onClick={openModal}
+            className="bg-[#09202E] w-full h-[40px] rounded-md shadow-lg"
+          >
             Ver completo
           </button>
           <div className="grid grid-cols-2 gap-[13px]">
@@ -126,6 +135,21 @@ const Card = ({
 };
 
 const Section5 = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [numberModal, setNumberModal] = useState<number>();
+
+  const openModal = (indexModal: number) => {
+    setShowModal(true);
+    setNumberModal(indexModal);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setNumberModal(undefined);
+    document.body.style.overflow = "auto";
+  };
+
   return (
     <div
       className="
@@ -156,9 +180,21 @@ const Section5 = () => {
         "
       >
         {Cards.map((data, index) => (
-          <Card key={index} {...data} />
+          <Card
+            key={index}
+            {...{
+              ...data,
+              openModal: () => openModal(index),
+            }}
+          />
         ))}
       </div>
+
+      {showModal && typeof numberModal !== "undefined" && (
+        // <div className="fixed top-0 h-screen w-screen overflow-auto">
+        <Modal {...{ ...ModalData[numberModal], closeModal }} />
+        // </div>
+      )}
     </div>
   );
 };
