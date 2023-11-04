@@ -1,8 +1,8 @@
 const Section2 = () => {
   return (
-    <div className=" p-[17px] pt-[50px] md:p-[100px] md:py-[140px] md:pb-[95px]">
+    <div className=" p-[17px] pt-[50px]  md:p-[100px] md:py-[140px] md:pb-[95px]">
       <div>
-        <div className="flex flex-col md:flex-row bg-[#092435] font-bold rounded-xl md:rounded-3xl md:px-14 md:pr-8 md:py-20 md:pb-16 p-4 pt-8 gap-[25px] text-white relative ">
+        <div className="flex flex-col md:flex-row bg-[#092435] font-bold rounded-xl md:rounded-3xl md:px-14 md:pr-8 md:py-20 md:pb-16 p-4 pt-8 pb-[42px] gap-[25px] text-white relative ">
           <div
             className="
               absolute 
