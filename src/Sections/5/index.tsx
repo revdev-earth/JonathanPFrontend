@@ -104,12 +104,12 @@ const Card = ({
             className="
               flex flex-col gap-[9px]
               px-[20px] py-[19px] 
-              text-[14px]
+              text-[14px] list-disc
               leading-[18px]
             "
           >
             {list.map((text, index) => (
-              <li key={index}>{text}</li>
+              <li  key={index} >{text}</li>
             ))}
           </ul>
         </div>
