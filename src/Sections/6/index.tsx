@@ -29,12 +29,40 @@ const Card = ({
   profesion: string;
 }) => {
   return (
-    <div className="flex flex-col w-[330px] text-black bg-[#FFFAEB] rounded-b-lg overflow-hidden ">
-      <div className="p-10 flex-1">{content}</div>
+    <div
+      className="
+        flex flex-col 
+        text-black bg-[#FFFAEB]
+        w-[338px]
+        rounded-b-xl overflow-hidden
+      "
+    >
+      <div
+        className=" 
+          h-[12px] -mt-[3px] w-full
+          bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
+        "
+      />
 
-      <div className="p-5 flex flex-col gap-2 items-center bg-[#071E2C] text-white">
+      <div
+        className="
+          py-5 px-[26px] flex-1
+          text-[17px] leading-[19px]
+        "
+      >
+        {content}
+      </div>
+
+      <div className="p-4 flex flex-col gap-2 items-center bg-[#071E2C] text-white">
         <img src="/section6/stars.png" alt="start" />
-        <div>{name}</div>
+        <div
+          className="
+            text-[24px]
+            bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-transparent bg-clip-text
+          "
+        >
+          {name}
+        </div>
         <div>{profesion}</div>
       </div>
     </div>
@@ -43,9 +71,36 @@ const Card = ({
 
 const Section6 = () => {
   return (
-    <div className="flex flex-col gap-12 min-h-[500px] py-16">
-      <div className="text-4xl w-fit m-auto">Transformaciones</div>
-      <div className="grid grid-cols-3 gap-10 w-fit m-auto">
+    <div
+      className="
+        flex flex-col 
+        gap-6 md:gap-[62px] min-h-[500px] 
+        py-5 md:py-[73px]
+      "
+    >
+      <div
+        className="
+          font-gopher font-bold
+          text-[27px] md:text-[60px]
+          w-fit m-auto
+        "
+      >
+        Transformaciones
+        <div
+          className=" w-full 
+            h-[5px] md:h-[10px]
+            -mt-[3px] md:-mt-[11px]
+            bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
+          "
+        />
+      </div>
+      <div
+        className="
+          grid md:grid-cols-3 
+          gap-10 md:gap-8
+          w-fit m-auto
+        "
+      >
         {CardsInformation.map((data, index) => (
           <Card key={index} {...data} />
         ))}
