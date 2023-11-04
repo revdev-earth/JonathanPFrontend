@@ -19,7 +19,8 @@ const Section2 = () => {
             hasta aquí!!
           </div>
           <div className="flex flex-col gap-4  md:gap-[17px] w-full ">
-            <div className="text-3xl md:text-[42px] font-gopher leading-[30px] md:leading-[54px] md:w-[520px]">Querido viajero y sembrador en el tiempo,</div>
+            <div className="text-3xl md:text-[42px] font-gopher leading-[30px] md:leading-[54px] md:w-[520px] bg-clip-text         
+                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">Querido viajero y sembrador en el tiempo,</div>
             <div className="flex flex-col px-2 md:p-0 pr-3 gap-4 font-normal text-base md:text-lg leading-[21px] md:leading-[25px] font-nunito md:w-[520px]">
               <p>
                 Si sientes que ya es hora de que despiertes a tu verdadero

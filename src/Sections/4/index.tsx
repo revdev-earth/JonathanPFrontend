@@ -52,7 +52,7 @@ const Card = ({
       <img src={imgSrc} alt={title} />
 
       <div className="absolute min-h-2/4 bottom-0 text-white bg-[#092435] p-6">
-        <div>{title}</div>
+        <div className=" font-bold bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-xl">{title}</div>
         <div>{content}</div>
       </div>
     </div>
@@ -61,10 +61,50 @@ const Card = ({
 
 const Section4 = () => {
   return (
-    <div className="flex flex-col min-h-[800px] py-1 pb-[35px] md:py-32 gap-5 md:gap-20">
-      <div className="w-max m-auto text-2xl md:text-6xl text-center font-bold tracking-[.04rem]" >
-        <div>Método de transformación</div>
-        <div>enfocado en descubrir:</div>
+    <div className="relative flex flex-col min-h-[800px] py-1 pb-[35px] md:py-[88px] gap-5 md:gap-20">
+      
+      <img
+          src="/section4/vector-section-4.png"
+          alt="logo"
+          className="
+            absolute hidden md:flex left-[531px] top-[344px]
+            h-[83px]
+          "
+        />
+                <img
+          src="/section4/vector-section-4.png"
+          alt="logo"
+          className="
+            absolute hidden md:flex left-[772px] top-[344px] 
+            h-[83px] -scale-x-100
+          "
+        />
+                <img
+          src="/section4/vector-section-4.png"
+          alt="logo"
+          className="
+          absolute hidden md:flex left-[531px] top-[813px]
+            h-[83px] -scale-y-100
+          "
+        />
+                <img
+          src="/section4/vector-section-4.png"
+          alt="logo"
+          className="
+          absolute hidden md:flex left-[772px] top-[813px] 
+          h-[83px] -scale-x-100 -scale-y-100
+          "
+        />
+      
+
+
+      <div className=" w-max m-auto text-2xl md:text-6xl text-center font-bold tracking-[.04rem] md:tracking-[.10rem] " >
+        <div className=" 
+        relative after:content-[''] after:absolute 
+        after:bottom-[0px] md:after:bottom-[-10px] after:left-0  
+        after:h-[6px] md:after:h-[10px] after:w-full
+        after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF] ">Método de transformación</div>
+        <div className="md:mt-4">enfocado en descubrir:</div>
       </div>
 
       <div className="grid  grid-cols-1 gap-5 md:grid-cols-3 items-center mt-1">
