@@ -120,7 +120,7 @@ const Section7 = () => {
               className="
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
-                border-2 border-[#CBCBC9]
+                border-2 border-[#122E3F]
               "
             />
           </label>
@@ -133,7 +133,7 @@ const Section7 = () => {
               className="
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
-                border-2 border-[#CBCBC9]
+                border-2 border-[#122E3F]
               "
             />
           </label>
@@ -146,7 +146,7 @@ const Section7 = () => {
               className="
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
-                border-2 border-[#CBCBC9]
+                border-2 border-[#122E3F]
               "
             />
           </label>
@@ -157,7 +157,7 @@ const Section7 = () => {
               id="tel"
               className="
                 w-full bg-[#FAFAFA] rounded-md h-[120px] md:h-[190px] 
-                border-2 border-[#CBCBC9]
+                border-2 border-[#122E3F]
               "
             />
           </label>
