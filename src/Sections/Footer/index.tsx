@@ -152,25 +152,32 @@ const Footer = () => {
                 text-[12px] md:text-[21px]
               "
             >
-              <li className="flex md:gap-[13px]">
-                <img
-                  src="/footer/phone.svg"
-                  alt="phone"
-                  className="
+              <li>
+                <a href="tel:+34657241310" className="flex md:gap-[13px]">
+                  <img
+                    src="/footer/phone.svg"
+                    alt="phone"
+                    className="
                     scale-50 md:scale-100
                   "
-                />
-                +34657241310
+                  />
+                  +34657241310
+                </a>
               </li>
-              <li className="flex md:gap-[13px]">
-                <img
-                  src="/footer/mail.svg"
-                  alt="mail"
-                  className="
+              <li>
+                <a
+                  href="mailto:tucoach@conciencia11.com"
+                  className="flex md:gap-[13px]"
+                >
+                  <img
+                    src="/footer/mail.svg"
+                    alt="mail"
+                    className="
                     scale-50 md:scale-100
                   "
-                />
-                tucoach@conciencia11.com
+                  />
+                  tucoach@conciencia11.com
+                </a>
               </li>
               <li className="flex gap-1 md:gap-6 md:mt-2">
                 <img
