@@ -160,6 +160,7 @@ const Section5 = () => {
       "
     >
       <div
+        id="planes"
         className="
           font-gopher
           md:w-3/4 m-auto px-10

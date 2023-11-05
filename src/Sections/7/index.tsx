@@ -1,6 +1,7 @@
 const Section7 = () => {
   return (
     <div
+      id="interactuemos"
       className="
         flex flex-col md:flex-row-reverse
         gap-[28px]  md:gap-[45px] 

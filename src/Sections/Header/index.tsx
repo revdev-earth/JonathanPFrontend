@@ -2,9 +2,10 @@ const Header = () => {
   return (
     <div
       className="flex items-center  justify-between
-                  h-[88px] px-[20px]
-                  md:h-[120px]  lg:px-24
-                  bg-[#092435]"
+        h-[88px] px-[20px]
+        md:h-[120px]  lg:px-24
+        bg-[#092435]
+      "
     >
       <div className="flex items-center gap-[18px] md:gap-[30px]">
         <div className="w-[111px] md:w-[178px] h-[69px] md:h-[111px]">
@@ -22,10 +23,11 @@ const Header = () => {
       </div>
 
       <div className="hidden md:flex text-white gap-7 items-center text-xl">
-        <div>Inicio</div>
-        <div>Método</div>
-        <div>Planes</div>
-        <div>Interactuemos</div>
+        <a href="#inicio">Inicio</a>
+        <a href="#metodo">Método</a>
+        <a href="#planes">Planes</a>
+        <a href="#interactuemos">Interactuemos</a>
+
         <div>
           <a
             href="/"

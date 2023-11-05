@@ -3,6 +3,7 @@ import LogotFotosintesis from "/section1/logo-fotosintesis.png";
 const Section1 = () => {
   return (
     <div
+      id="inicio"
       className="flex md:items-start  
         h-[374px] px-[20px] py-[40px]
         md:py-[72px]

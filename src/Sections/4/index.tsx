@@ -63,7 +63,10 @@ const Card = ({
 
 const Section4 = () => {
   return (
-    <div className="relative flex flex-col min-h-[800px] py-1 pb-[35px] md:py-[88px] gap-5 md:gap-20">
+    <div
+      id="metodo"
+      className="relative flex flex-col min-h-[800px] py-1 pb-[35px] md:py-[88px] gap-5 md:gap-20"
+    >
       <img
         src="/section4/vector-section-4.png"
         alt="logo"
