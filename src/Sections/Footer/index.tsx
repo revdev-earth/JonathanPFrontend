@@ -54,65 +54,77 @@ const Footer = () => {
                 text-[12px] md:text-[21px]
               "
             >
-              <li
-                className="
-                flex 
-                gap-[8px] md:gap-[21px]
-              "
-              >
-                <img
-                  src="/footer/arrow-footer.svg"
-                  alt="arrow footer"
+              <li>
+                <a
+                  href="#inicio"
                   className="
+                    flex 
+                    gap-[8px] md:gap-[21px]
+                  "
+                >
+                  <img
+                    src="/footer/arrow-footer.svg"
+                    alt="arrow footer"
+                    className="
                     scale-50 md:scale-100
                   "
-                />
-                Inicio
+                  />
+                  Inicio
+                </a>
               </li>
-              <li
-                className="
-                flex 
-                gap-[8px] md:gap-[21px]
-              "
-              >
-                <img
-                  src="/footer/arrow-footer.svg"
-                  alt="arrow footer"
+              <li>
+                <a
+                  href="#metodo"
                   className="
+                    flex 
+                    gap-[8px] md:gap-[21px]
+                  "
+                >
+                  <img
+                    src="/footer/arrow-footer.svg"
+                    alt="arrow footer"
+                    className="
                   scale-50 md:scale-100
                 "
-                />
-                Método
+                  />
+                  Método
+                </a>
               </li>
-              <li
-                className="
-                flex 
-                gap-[8px] md:gap-[21px]
-              "
-              >
-                <img
-                  src="/footer/arrow-footer.svg"
-                  alt="arrow footer"
+              <li>
+                <a
+                  href="#planes"
                   className="
+                    flex 
+                    gap-[8px] md:gap-[21px]
+                  "
+                >
+                  <img
+                    src="/footer/arrow-footer.svg"
+                    alt="arrow footer"
+                    className="
                   scale-50 md:scale-100
                 "
-                />
-                Planes
+                  />
+                  Planes
+                </a>
               </li>
-              <li
-                className="
-                flex 
-                gap-[8px] md:gap-[21px]
-              "
-              >
-                <img
-                  src="/footer/arrow-footer.svg"
-                  alt="arrow footer"
+              <li>
+                <a
+                  href="#interactuemos"
                   className="
+                    flex 
+                    gap-[8px] md:gap-[21px]
+                  "
+                >
+                  <img
+                    src="/footer/arrow-footer.svg"
+                    alt="arrow footer"
+                    className="
                   scale-50 md:scale-100
                 "
-                />
-                Interactuemos
+                  />
+                  Interactuemos
+                </a>
               </li>
             </ul>
           </div>
