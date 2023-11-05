@@ -8,7 +8,7 @@ const Section1 = () => {
         md:py-[72px]
         md:min-h-[567px] md:px-24 relative
         bg-[url('/section1/hero-bg.png')]
-        after:content-['*'] after:absolute 
+        after:content-[''] after:absolute 
         after:bottom-[-10px] after:left-0 
         after:h-[6px] md:after:h-[10px] after:w-full
         after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF]
