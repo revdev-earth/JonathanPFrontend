@@ -2,12 +2,12 @@ import { ModalDataInterface } from "../ModalData";
 
 const TextComponent = (
   text: string,
-  preferentWords: ModalDataInterface["preferentWords"]
+  preferentWords: ModalDataInterface["preferentWords"],
 ) => {
   const resaltarPalabras = (text: string) => {
     const regex = new RegExp(
       `\\b(${Object.values(preferentWords).flat().join("|")})\\b`,
-      "gi"
+      "gi",
     );
     return text.split(regex).map((part, index) => {
       if (preferentWords.blue.includes(part.toLowerCase())) {
@@ -76,7 +76,7 @@ const Modal = ({
         bg-[#122E3F] text-[#FFFEFA] rounded-2xl max-h-[838px]
           -top-1/2 translate-y-[50%]
         "
-      > 
+      >
         {/* barra  para cerrar modal */}
         <div className="flex items-center h-[63px] w-full bg-[#09202E]">
           <img

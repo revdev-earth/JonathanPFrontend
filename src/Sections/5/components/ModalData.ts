@@ -119,7 +119,7 @@ export const ModalData = [
       "Quieres tener la vida de tus sueños, pero no sabes por dónde empezar.",
       "Llevas tiempo haciendo mil cosas, pero sigues obteniendo los mismos resultados.",
       "Te sientes con muchos bloqueos y limitaciones en tu vida.",
-      "Te encuentras en una zona de confort y no sabes cómo salir de ella."
+      "Te encuentras en una zona de confort y no sabes cómo salir de ella.",
     ],
     titleList2: "Te acompañare a...",
     list2: [
@@ -129,7 +129,7 @@ export const ModalData = [
       "Tener más confianza en ti mismo para afrontar cualquier reto en tu vida.",
       "Pasar de una situación actual a una situación deseada.",
       "Facilitar tu crecimiento y la toma de conciencia.",
-      "Hacerte responsable de tu vida y tomar acción."
+      "Hacerte responsable de tu vida y tomar acción.",
     ],
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",

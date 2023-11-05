@@ -2,12 +2,12 @@ import { ModalDataInterface } from "../ModalData";
 
 const TextComponent = (
   text: string,
-  preferentWords: ModalDataInterface["preferentWords"]
+  preferentWords: ModalDataInterface["preferentWords"],
 ) => {
   const resaltarPalabras = (text: string) => {
     const regex = new RegExp(
       `\\b(${Object.values(preferentWords).flat().join("|")})\\b`,
-      "gi"
+      "gi",
     );
     return text.split(regex).map((part, index) => {
       if (preferentWords.blue.includes(part.toLowerCase())) {
@@ -76,7 +76,7 @@ const Modal = ({
         bg-[#122E3F] text-[#FFFEFA] rounded-2xl md:max-h-[838px]
           -top-1/2 translate-y-[50%] 
         "
-      > 
+      >
         {/* barra  para cerrar modal */}
         <div className="flex items-center h-[32px] md:h-[63px] md:w-full bg-[#09202E] ">
           <img
@@ -100,26 +100,36 @@ const Modal = ({
                 {title}
               </div>
               <div className="relative flex justify-center items-center md:gap-[20px]">
-                <div className="text-[35px] md:text-[40px] font-bold text-center after:content-[''] after:absolute 
+                <div
+                  className="text-[35px] md:text-[40px] font-bold text-center after:content-[''] after:absolute 
                             after:bottom-[-10px] after:left-0 
                             after:h-[2px] md:after:h-[10px] after:w-full
-                            after:bg-[#09202E]">
+                            after:bg-[#09202E]"
+                >
                   ${price}
                 </div>
-                <div className="absolute -top-[86px] md:relative md:text-[26px] w-max text-center">{priceText}</div>
+                <div className="absolute -top-[86px] md:relative md:text-[26px] w-max text-center">
+                  {priceText}
+                </div>
               </div>
             </div>
 
-            <div className="pt-4 pl-1 text-[14px] leading-[20px] font-nunito">{TextComponent(text2, preferentWords)}</div>
+            <div className="pt-4 pl-1 text-[14px] leading-[20px] font-nunito">
+              {TextComponent(text2, preferentWords)}
+            </div>
           </div>
           {/*  */}
           <div className="flex flex-col md:flex-row md:gap-[70px]">
             {/*  */}
             <div className="flex flex-col mt-8 border border-[#09202E] rounded-3xl md:w-[446px] md:p-[20px] order-1 md:order-2">
-              <div className="mt-1 ml-5 mr-8 text-[22px] leading-[22px] font-bold text-[#346AFF] md:text-[32px] md:leading-[31px]">{subtitle}</div>
+              <div className="mt-1 ml-5 mr-8 text-[22px] leading-[22px] font-bold text-[#346AFF] md:text-[32px] md:leading-[31px]">
+                {subtitle}
+              </div>
               <div className="mt-5 md:mt-[28px] md:text-[18px] md:leading-[20px] flex flex-col gap-2 md:gap-[9px]">
                 {text1.map((text) => (
-                  <div className="mx-5 text-xs font-semibold leading-[14px] text-justify">{text}</div>
+                  <div className="mx-5 text-xs font-semibold leading-[14px] text-justify">
+                    {text}
+                  </div>
                 ))}
               </div>
 
@@ -130,13 +140,15 @@ const Modal = ({
                 {answer}
               </div>
             </div>
-            
+
             {/* listas */}
             <div className="flex flex-col flex-1 md:mt-[12px]">
               <div className="flex flex-col md:flex-row md:gap-[80px]">
                 {/*  */}
                 <div className="flex flex-col w-full pl-[5px] ">
-                  <div className="text-2xl leading-[35px] tracking-[.02rem] md:text-[33px]">{titleList1}</div>
+                  <div className="text-2xl leading-[35px] tracking-[.02rem] md:text-[33px]">
+                    {titleList1}
+                  </div>
                   <ul
                     className="
                     pt-3 px-4 pr-1
@@ -145,14 +157,18 @@ const Modal = ({
                   "
                   >
                     {list1.map((text) => (
-                      <li className="text-sm leading-[17px] tracking-[.0001rem]">{text}</li>
+                      <li className="text-sm leading-[17px] tracking-[.0001rem]">
+                        {text}
+                      </li>
                     ))}
                   </ul>
                 </div>
 
                 {/*  */}
                 <div className="flex flex-col md:w-full">
-                  <div className="pt-[10px] pl-1 text-2xl leading-[35px] font-bold md:text-[33px]">{titleList2}</div>
+                  <div className="pt-[10px] pl-1 text-2xl leading-[35px] font-bold md:text-[33px]">
+                    {titleList2}
+                  </div>
                   <ul
                     className="
                     pt-3 px-[21px] pr-1
@@ -161,19 +177,25 @@ const Modal = ({
                   "
                   >
                     {list2.map((text) => (
-                      <li className="text-sm leading-[17px] tracking-[.0001rem]">{text}</li>
+                      <li className="text-sm leading-[17px] tracking-[.0001rem]">
+                        {text}
+                      </li>
                     ))}
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          
+
           {/*  */}
           <div className="flex flex-col md:flex-row md:gap-[100px] ">
             {/*  */}
             <div className="mt-10 flex flex-col md:flex-row items-center md:mt-[15px] md:ml-[19px] md:gap-[28px] order-1">
-              <img src="/modal/logo-modal.png" alt="logo" className="w-[206px] h-[64px]"/>
+              <img
+                src="/modal/logo-modal.png"
+                alt="logo"
+                className="w-[206px] h-[64px]"
+              />
 
               <div className="mt-8 mb-20 flex gap-5 md:gap-[13px] md::gap-[18px] md:h-[13px] md::h-[20px]">
                 <img src="/header/linkedin.png" alt="Linkedin" />
@@ -182,7 +204,7 @@ const Modal = ({
                 <img src="/header/tiktok.png" alt="Tiktok" />
               </div>
             </div>
-            
+
             {/*  */}
             <div className="flex flex-col md:relative gap-6">
               <div className="md:absolute md:-top-[40px] mt-1 mx-10 md:w-max font-gopher text-sm leading-[14px] md:text-[18px] bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-transparent bg-clip-text font-bold text-center">

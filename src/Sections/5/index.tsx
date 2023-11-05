@@ -109,7 +109,7 @@ const Card = ({
             "
           >
             {list.map((text, index) => (
-              <li  key={index} >{text}</li>
+              <li key={index}>{text}</li>
             ))}
           </ul>
         </div>

@@ -15,12 +15,16 @@ const Section2 = () => {
               
           "
           >
-            ¡¡ Toma acción y responsabilidad, no es <br className="md:hidden" /> casualidad  que hayas llegado
-            hasta aquí!!
+            ¡¡ Toma acción y responsabilidad, no es <br className="md:hidden" />{" "}
+            casualidad que hayas llegado hasta aquí!!
           </div>
           <div className="flex flex-col gap-4  md:gap-[17px] w-full ">
-            <div className="text-3xl md:text-[42px] font-gopher leading-[30px] md:leading-[54px] md:w-[520px] bg-clip-text         
-                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">Querido viajero y sembrador en el tiempo,</div>
+            <div
+              className="text-3xl md:text-[42px] font-gopher leading-[30px] md:leading-[54px] md:w-[520px] bg-clip-text         
+                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
+            >
+              Querido viajero y sembrador en el tiempo,
+            </div>
             <div className="flex flex-col px-2 md:p-0 pr-3 gap-4 font-normal text-base md:text-lg leading-[21px] md:leading-[25px] font-nunito md:w-[520px]">
               <p>
                 Si sientes que ya es hora de que despiertes a tu verdadero
@@ -45,7 +49,11 @@ const Section2 = () => {
             </div>
           </div>
           <div className="pl-1  w-full box-content md:p-0">
-            <img src="/section2/schedule.png" alt="schedule" className="w-full md:w-[565px]"/>
+            <img
+              src="/section2/schedule.png"
+              alt="schedule"
+              className="w-full md:w-[565px]"
+            />
           </div>
         </div>
       </div>
