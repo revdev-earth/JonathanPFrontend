@@ -65,7 +65,11 @@ const Section4 = () => {
   return (
     <div
       id="metodo"
-      className="relative flex flex-col min-h-[800px] py-1 pb-[35px] md:py-[88px] gap-5 md:gap-20"
+      className="
+        relative flex flex-col min-h-[800px] 
+        py-1 pb-[35px] md:py-[88px] md:pb-[100px] 
+        gap-5 md:gap-[40px]
+      "
     >
       <img
         src="/section4/vector-section-4.png"
@@ -113,10 +117,15 @@ const Section4 = () => {
         <div className="md:mt-4">enfocado en descubrir:</div>
       </div>
 
-      <div className="grid  grid-cols-1 gap-5 md:grid-cols-3 items-center mt-1">
+      <div
+        className="
+          grid gap-5
+          md:flex m-auto md:gap-[36px]
+          items-center mt-1"
+      >
         <div
           className="
-            flex flex-col gap-5 md:gap-10
+            flex flex-col gap-5 md:gap-[68px]
             items-center
           "
         >
@@ -133,7 +142,7 @@ const Section4 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-5 md:gap-10
+            flex flex-col gap-5 md:gap-[68px]
             items-center
           "
         >
