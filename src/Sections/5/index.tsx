@@ -70,41 +70,51 @@ const Card = ({
     <div
       className={`
         bg-[#122E3F] rounded-2xl
-        md:min-h-[600px] md:w-[400px]
+        md:min-h-[600px] md:w-[395px]
         overflow-hidden shadow-lg
       `}
     >
       {recommended ? (
-        <div className="flex justify-center items-center h-[32px] bg-[#2ABA64]">
+        <div
+          className="
+            flex justify-center items-center h-[36px] 
+            md:text-[18px]
+            bg-[#2ABA64] text-[#122E3F]
+          "
+        >
           Recomendado
         </div>
       ) : (
         <div className="h-[36px] bg-[#09202E]" />
       )}
+
       <div
         className="
           flex flex-col
           items-center
-          py-[12px]
+          py-[12px] md:py-[18px]
         "
       >
-        <div className="text-[15px]">{text1}</div>
+        <div className="text-[15px] md:text-[17px]">{text1}</div>
         <div
           className="
-            mt-[4px] text-[28px] font-gopher font-bold
+            mt-[4px] text-[28px] md:text-[32px] font-gopher font-bold
             bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-transparent bg-clip-text
           "
         >
           {text2}
         </div>
         <div className="mt-[14px] text-[38px] font-bold">${price}</div>
-        <div className="px-[32px] mt-[8px]">
+
+        <div className="px-[32px] mt-[8px] md:mt-[16px]">
           <div className="h-[1px] bg-[#09202E] w-full" />
           <ul
             className="
-              flex flex-col gap-[9px]
-              px-[20px] py-[19px] 
-              text-[14px] list-disc
+              flex flex-col 
+              gap-[9px] md:gap-[15px]
+              px-[20px] py-[19px]
+              md:pl-[28px] md:py-[22px] 
+              text-[14px] md:text-[16px] list-disc
               leading-[18px]
             "
           >
@@ -154,7 +164,7 @@ const Section5 = () => {
     <div
       className="
         flex flex-col 
-        py-[36px] md:py-[98px]
+        py-[36px] md:py-[98px] md:pb-[131px]
         gap-[14px]
         bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
       "
@@ -171,12 +181,13 @@ const Section5 = () => {
       >
         Esta es la transformación que necesitas, si te sientes así:
       </div>
+
       <div
         className="
           flex flex-col md:grid md:grid-cols-3 
           items-center md:items-end 
           gap-[22px] md:gap-[26px] m-auto
-          px-[20px] md:mt-[41px]
+          px-[20px] md:mt-[42px]
           text-[#FFFAEB] w-fit 
         "
       >

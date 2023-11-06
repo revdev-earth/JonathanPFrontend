@@ -6,7 +6,7 @@ const Section7 = () => {
         flex flex-col md:flex-row-reverse
         gap-[28px]  md:gap-[45px] 
         px-[21px]   md:px-[58px]
-        py-[30px]   md:py-[81px] md:pb-[166px]
+        py-[30px]   md:py-[72px] md:pb-[148px]
       "
     >
       <div
@@ -14,8 +14,8 @@ const Section7 = () => {
           flex flex-col
         bg-[#FFFAEB]
           py-[31px] md:py-[38px]
-          px-[16px] md:px-[42px]
-          shadow-2xl
+          px-[16px] md:px-[38px]
+          shadow-2xl rounded-xl
           md:w-1/2
         "
       >
@@ -27,22 +27,23 @@ const Section7 = () => {
             "
           />
         </div>
+
         <div
           className="relative
             bg-[#071E2C] rounded-lg text-whit 
-            p-[13px] md:p-[25px] 
-            mt-[11px] md:mt-[15px]
+            p-[13px] md:p-[22px] md:pb-[27px]
+            mt-[11px] md:mt-[20px]
           "
         >
           <div
-            className="
-              text-[10px]
+            className=" text-[#FFFEFA]
+              text-[10px] 
               leading-[14px]
               tracking-[0.17px]
 
-              md:text-[18px]
-              md:leading-[24px]
-              md:tracking-[0.3px]
+              md:text-[19px]
+              md:leading-[25px]
+              md:tracking-[0px]
             "
           >
             Hoy arde de nuevo. Que ardan tus sueños, tu ser, tu sonrisa, tu alma
@@ -81,7 +82,7 @@ const Section7 = () => {
             "
         />
         <div
-          className="h-[6px] md:h-[11px] w-[95%] m-auto -mt-[23px]
+          className="h-[6px] md:h-[11px] w-[95%] m-auto -mt-[5px] z-10
               bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
             "
         />
@@ -91,7 +92,7 @@ const Section7 = () => {
         className="
           rounded-xl
           bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
-          py-[25px]   md:py-[35px] 
+          py-[25px]   md:py-[35px] md:pb-[45px] 
           px-[40px]   md:px-[95px]
           md:w-1/2
         "
@@ -106,7 +107,7 @@ const Section7 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-1
+            flex flex-col gap-1 md:gap-[12px]
             px-[15px] md:px-0
             mt-1 md:mt-5
           text-white
@@ -177,7 +178,7 @@ const Section7 = () => {
                 w-[185px] md:w-[320px] 
                 m-auto
                 bg-[#09202E]
-                mt-[10px]
+                mt-[10px] md:mt-[16px]
               "
           >
             Enviar
