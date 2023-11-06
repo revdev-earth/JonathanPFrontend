@@ -63,7 +63,7 @@ const Card = ({
         >
           {name}
         </div>
-        <div>{profesion}</div>
+        <div className="-mt-[10px]">{profesion}</div>
       </div>
     </div>
   );
@@ -76,6 +76,7 @@ const Section6 = () => {
         flex flex-col 
         gap-6 md:gap-[62px] min-h-[500px] 
         py-5 md:py-[73px]
+        pb-[7px]
       "
     >
       <div

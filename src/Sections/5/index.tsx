@@ -192,9 +192,7 @@ const Section5 = () => {
       </div>
 
       {showModal && typeof numberModal !== "undefined" && (
-        // <div className="fixed top-0 h-screen w-screen overflow-auto">
         <Modal {...{ ...ModalData[numberModal], closeModal }} />
-        // </div>
       )}
     </div>
   );

@@ -51,11 +51,11 @@ const Card = ({
     >
       <img src={imgSrc} alt={title} />
 
-      <div className="absolute min-h-2/4 bottom-0 text-white bg-[#092435] p-6">
+      <div className="absolute min-h-[170px] bottom-0 text-white bg-[#092435] px-[18px] py-[9px]">
         <div className=" font-bold bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-xl">
           {title}
         </div>
-        <div>{content}</div>
+        <div className="text-[13px]">{content}</div>
       </div>
     </div>
   );

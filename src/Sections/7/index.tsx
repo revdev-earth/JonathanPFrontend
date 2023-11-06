@@ -29,7 +29,7 @@ const Section7 = () => {
         </div>
         <div
           className="relative
-            bg-[#071E2C] rounded-lg text-white 
+            bg-[#071E2C] rounded-lg text-whit 
             p-[13px] md:p-[25px] 
             mt-[11px] md:mt-[15px]
           "
@@ -122,6 +122,7 @@ const Section7 = () => {
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
                 border-2 border-[#122E3F]
+                text-[#071E2C] px-[7px]
               "
             />
           </label>
@@ -135,6 +136,7 @@ const Section7 = () => {
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
                 border-2 border-[#122E3F]
+                text-[#071E2C] px-[7px]
               "
             />
           </label>
@@ -148,6 +150,7 @@ const Section7 = () => {
                 w-full bg-[#FAFAFA] rounded-md 
                 h-[28px] md:h-[46px]
                 border-2 border-[#122E3F]
+                text-[#071E2C] px-[7px]
               "
             />
           </label>
@@ -157,8 +160,10 @@ const Section7 = () => {
             <textarea
               id="tel"
               className="
-                w-full bg-[#FAFAFA] rounded-md h-[120px] md:h-[190px] 
+                w-full bg-[#FAFAFA] rounded-md 
+                h-[120px] md:h-[190px] 
                 border-2 border-[#122E3F]
+                text-[#071E2C] px-[7px]
               "
             />
           </label>
