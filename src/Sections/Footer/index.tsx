@@ -180,34 +180,51 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex gap-1 md:gap-6 md:mt-2">
-                <img
-                  src="/footer/linkedin.svg"
-                  alt="phone"
-                  className="
-                    scale-50 md:scale-100
-                  "
-                />
-                <img
-                  src="/footer/instagram.svg"
-                  alt="instagram"
-                  className="
-                    scale-50 md:scale-100
-                  "
-                />
-                <img
-                  src="/footer/facebook.svg"
-                  alt="facebook"
-                  className="
-                    scale-50 md:scale-100
-                  "
-                />
-                <img
-                  src="/footer/tiktok.svg"
-                  alt="tiktok"
-                  className="
-                    scale-50 md:scale-100
-                  "
-                />
+                <a
+                  href="https://www.linkedin.com/in/jonathan-perez-medina-17614a231/"
+                  target="_blank"
+                >
+                  <img
+                    src="/header/linkedin.png"
+                    alt="Linkedin"
+                    className="
+                      scale-50 md:scale-100
+                    "
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/jonaperezme/"
+                  target="_blank"
+                >
+                  <img
+                    src="/header/instagram.png"
+                    alt="Instagram"
+                    className="
+                      scale-50 md:scale-100
+                    "
+                  />
+                </a>
+                <a href="https://www.facebook.com/JonaPerezM" target="_blank">
+                  <img
+                    src="/header/facebook.png"
+                    alt="facebook"
+                    className="
+                      scale-50 md:scale-100
+                    "
+                  />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@jonaperezme?lang=es"
+                  target="_blank"
+                >
+                  <img
+                    src="/header/tiktok.png"
+                    alt="Tiktok"
+                    className="
+                      scale-50 md:scale-100
+                    "
+                  />
+                </a>
               </li>
             </ul>
           </div>

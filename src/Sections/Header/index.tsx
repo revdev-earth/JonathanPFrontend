@@ -9,13 +9,26 @@ const Header = () => {
     >
       <div className="flex items-center gap-[18px] md:gap-[30px]">
         <div className="w-[111px] md:w-[178px] h-[69px] md:h-[111px]">
-          <img src="/header/logo.png" alt="logo" />
+          <a href="/">
+            <img src="/header/logo.png" alt="logo" />
+          </a>
         </div>
         <div className="flex gap-[13px] md:gap-[21px] h-[13px] md:h-[20px]">
-          <img src="/header/linkedin.png" alt="Linkedin" />
-          <img src="/header/instagram.png" alt="Instagram" />
-          <img src="/header/facebook.png" alt="facebook" />
-          <img src="/header/tiktok.png" alt="Tiktok" />
+          <a
+            href="https://www.linkedin.com/in/jonathan-perez-medina-17614a231/"
+            target="_blank"
+          >
+            <img src="/header/linkedin.png" alt="Linkedin" />
+          </a>
+          <a href="https://www.instagram.com/jonaperezme/" target="_blank">
+            <img src="/header/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.facebook.com/JonaPerezM" target="_blank">
+            <img src="/header/facebook.png" alt="facebook" />
+          </a>
+          <a href="https://www.tiktok.com/@jonaperezme?lang=es" target="_blank">
+            <img src="/header/tiktok.png" alt="Tiktok" />
+          </a>
         </div>
       </div>
       <div className=" md:hidden">
