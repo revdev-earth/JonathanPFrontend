@@ -24,31 +24,30 @@ const Section3 = () => {
       </div>
       <div className="flex flex-col items-center  gap-6 md:gap-12 md:pt-0 text-white ">
         <div
-          className="flex flex-col text-white text-center md:items-center md:h-[97px] text-xl md:text-[42px] leading-[22px] md:leading-[45px] font-gopher font-bold bg-clip-text         
-                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
+          className="flex flex-col font-gopher font-bold text-white text-center 
+            md:items-center md:h-[97px] 
+            text-xl md:text-[42px] leading-[22px] md:leading-[45px] 
+            bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
+          "
         >
-          <div
-            className="bg-clip-text         
-                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
-          >
-            Emprendedor digital,{" "}
+          <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
+            Emprendedor digital,
           </div>
-          <div
-            className="bg-clip-text         
-                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
-          >
+          <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
             Especialista en Life Coaching,
           </div>
-          <div
-            className="bg-clip-text         
-                          text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
-          >
+          <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
             Proyector de Vida, Formador.
           </div>
         </div>
 
         <div className="flex flex-col items-center gap-10 md:gap-12 md:pl-[22px] md:pt-12">
-          <div className="flex flex-col items-center md:items-start md:flex-row gap-2 md:gap-10 box-content px-5 text-base font-normal font-nunito leading-[21px] ">
+          <div
+            className="
+              flex flex-col items-center md:flex-row 
+              gap-2 md:gap-10 box-content px-5 text-base font-normal leading-[21px] 
+            "
+          >
             <div
               className="
                 flex  justify-center items-center box-content
