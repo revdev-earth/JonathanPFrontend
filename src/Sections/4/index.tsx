@@ -98,25 +98,25 @@ const Section4 = () => {
         src="/section4/vector-section-4.png"
         alt="logo"
         className="
-            absolute hidden md:flex left-[531px] top-[344px]
-            h-[83px]
-          "
+          absolute hidden md:flex left-[531px] top-[344px]
+          h-[83px]
+        "
       />
       <img
         src="/section4/vector-section-4.png"
         alt="logo"
         className="
-            absolute hidden md:flex left-[772px] top-[344px] 
-            h-[83px] -scale-x-100
-          "
+          absolute hidden md:flex left-[772px] top-[344px] 
+          h-[83px] -scale-x-100
+        "
       />
       <img
         src="/section4/vector-section-4.png"
         alt="logo"
         className="
           absolute hidden md:flex left-[531px] top-[813px]
-            h-[83px] -scale-y-100
-          "
+          h-[83px] -scale-y-100
+        "
       />
       <img
         src="/section4/vector-section-4.png"
@@ -124,16 +124,21 @@ const Section4 = () => {
         className="
           absolute hidden md:flex left-[772px] top-[813px] 
           h-[83px] -scale-x-100 -scale-y-100
-          "
+        "
       />
 
-      <div className=" w-max m-auto text-2xl md:text-6xl text-center font-bold tracking-[.04rem] md:tracking-[.10rem] ">
+      <div
+        className=" 
+          w-max m-auto text-center 
+          text-2xl md:text-6xl font-bold tracking-[.04rem] md:tracking-[.10rem]
+        "
+      >
         <div
           className=" 
-        relative after:content-[''] after:absolute 
-        after:bottom-[0px] md:after:bottom-[-10px] after:left-0  
-        after:h-[6px] md:after:h-[10px] after:w-full
-        after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF] "
+          relative after:content-[''] after:absolute 
+          after:bottom-[0px] md:after:bottom-[-10px] after:left-0  
+          after:h-[6px] md:after:h-[10px] after:w-full
+          after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF] "
         >
           Método de transformación
         </div>
@@ -144,7 +149,8 @@ const Section4 = () => {
         className="
           grid gap-5
           md:flex m-auto md:gap-[36px]
-          items-center mt-1"
+          items-center mt-1
+        "
       >
         <div
           className="

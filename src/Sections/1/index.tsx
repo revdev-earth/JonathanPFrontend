@@ -13,7 +13,7 @@ const Section1 = () => {
         after:bottom-[-10px] after:left-0 
         after:h-[6px] md:after:h-[10px] after:w-full
         after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF]
-        "
+      "
     >
       <img
         src="/section1/rama.png"

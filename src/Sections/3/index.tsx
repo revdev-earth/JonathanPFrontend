@@ -1,6 +1,12 @@
 const Section3 = () => {
   return (
-    <div className="m-5 md:m-0 mt-2 md:min-h-[800px] bg-[#092435] md:px-24 rounded-lg md:rounded-none py-12 pb-7 md:py-16  md:pb-[68px] relative">
+    <div
+      className="
+        relative m-5 md:m-0 mt-2 py-12 pb-7 md:py-16 md:pb-[68px] md:px-24 
+        md:min-h-[800px] bg-[#092435] 
+        rounded-lg md:rounded-none
+      "
+    >
       <div>
         <img
           src="/section3/vector-izquierda-section-3.png"
@@ -113,8 +119,15 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-        <button className="inline-block uppercase mx-4 md:m-0  md:w-auto px-4 h-10 text-center md:text-base border-2 rounded-md border-[#2ABA64] tracking-[.15em] md:tracking-[.35em]">
-          VER PLANES AHORA
+        <button
+          className="
+            inline-block uppercase h-10 text-center 
+            mx-4 md:m-0 md:w-auto px-4 
+            tracking-[.15em] md:tracking-[.35em] md:text-base 
+            border-2 rounded-md border-[#2ABA64] 
+          "
+        >
+          Ver planes ahora
         </button>
       </div>
     </div>
