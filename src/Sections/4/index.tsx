@@ -94,38 +94,28 @@ const Section4 = () => {
         gap-5 md:gap-[40px]
       "
     >
-      <img
-        src="/section4/vector-section-4.png"
-        alt="logo"
-        className="
-          absolute hidden md:flex left-[531px] top-[344px]
-          h-[83px]
-        "
-      />
-      <img
-        src="/section4/vector-section-4.png"
-        alt="logo"
-        className="
-          absolute hidden md:flex left-[772px] top-[344px] 
-          h-[83px] -scale-x-100
-        "
-      />
-      <img
-        src="/section4/vector-section-4.png"
-        alt="logo"
-        className="
-          absolute hidden md:flex left-[531px] top-[813px]
-          h-[83px] -scale-y-100
-        "
-      />
-      <img
-        src="/section4/vector-section-4.png"
-        alt="logo"
-        className="
-          absolute hidden md:flex left-[772px] top-[813px] 
-          h-[83px] -scale-x-100 -scale-y-100
-        "
-      />
+      <div className="absolute md:w-[500px] md:h-[500px] left-1/2 -translate-x-1/2 top-1/4">
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute hidden md:flex left-[331px] top-[344px] h-[83px]"
+        />
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute hidden md:flex left-[572px] top-[344px] h-[83px] -scale-x-100"
+        />
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute hidden md:flex left-[331px] top-[813px] h-[83px] -scale-y-100"
+        />
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute hidden md:flex left-[572px] top-[813px] h-[83px] -scale-x-100 -scale-y-100"
+        />
+      </div>
 
       <div
         className=" 
