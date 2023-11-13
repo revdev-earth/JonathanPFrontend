@@ -78,7 +78,7 @@ const Card = ({
         <div
           className="
             flex justify-center items-center h-[36px] 
-            md:text-[18px]
+            md:text-[18px] font-bold
             bg-[#2ABA64] text-[#122E3F]
           "
         >

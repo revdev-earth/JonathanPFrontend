@@ -39,6 +39,7 @@ interface ModalInterface extends ModalDataInterface {
 }
 
 const Modal = ({
+  favorite,
   title,
   price,
   priceText,
@@ -80,13 +81,31 @@ const Modal = ({
           h-screen max-h-[98vh] md:max-h-[95vh] 
         "
       >
-        <div className="flex items-center h-[32px] md:h-[63px] md:w-full bg-[#09202E]">
+        <div
+          className={`
+            ${
+              favorite
+                ? "bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
+                : "bg-[#122E3F]"
+            }
+            flex items-center h-[32px] md:h-[63px] md:w-full
+          `}
+        >
           <img
-            src="/section5/close-modal.svg"
+            src={
+              favorite
+                ? "/section5/close-modal-black.svg"
+                : "/section5/close-modal.svg"
+            }
             alt="close modal"
             onClick={closeModal}
             className="pl-[16px] w-[36px] h-[36px] md:w-[58px] md:h-[58px] cursor-pointer"
           />
+          {favorite && (
+            <div className="absolute left-1/2 -translate-x-[42%] md:-translate-x-[60%] font-bold text-[#122E3F]">
+              Recomendado
+            </div>
+          )}
         </div>
         <div className="p-4 md:px-[40px] md:py-[26px] h-[94vh] md:h-[83vh]">
           <div className="flex flex-col gap-9  md:gap-[0px] overflow-auto h-full">
