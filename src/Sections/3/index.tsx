@@ -75,7 +75,7 @@ const Section3 = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center md:flex-row gap-3 md:gap-7 box-content px-5 md:px-[18px] pr-2 text-base font-normal font-nunito leading-[21px]">
+          <div className="flex flex-col items-center md:flex-row gap-3 md:gap-7 box-content px-5 md:px-[18px] pr-2 text-base font-normal leading-[21px]">
             <div
               className="
                 flex justify-center items-center mr-3 md:mt-2
@@ -113,7 +113,7 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-        <button className="inline-block uppercase mx-4 md:m-0  md:w-auto px-4 h-10 text-center md:text-base font-nunito border-2 rounded-md border-[#2ABA64] tracking-[.15em] md:tracking-[.35em]">
+        <button className="inline-block uppercase mx-4 md:m-0  md:w-auto px-4 h-10 text-center md:text-base border-2 rounded-md border-[#2ABA64] tracking-[.15em] md:tracking-[.35em]">
           VER PLANES AHORA
         </button>
       </div>

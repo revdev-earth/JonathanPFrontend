@@ -135,7 +135,7 @@ const Modal = ({
                 </div>
               </div>
 
-              <div className="pt-4 md:pt-0 pl-1 text-[14px] md:text-[18px] leading-[20px] md:tracking-[.04rem] font-nunito">
+              <div className="pt-4 md:pt-0 pl-1 text-[14px] md:text-[18px] leading-[20px] md:tracking-[.04rem]">
                 {TextComponent(text2, preferentWords)}
               </div>
             </div>
@@ -148,7 +148,7 @@ const Modal = ({
                 </div>
                 <div className="mt-5 md:mt-[28px] md:text-[18px] md:leading-[20px] flex flex-col gap-2 md:gap-[10px]">
                   {text1.map((text) => (
-                    <div className="mx-5 text-xs md:text-lg font-nunito font-semibold leading-[14px] md:leading-[17px] text-justify">
+                    <div className="mx-5 text-xs md:text-lg font-semibold leading-[14px] md:leading-[17px] text-justify">
                       {text}
                     </div>
                   ))}
@@ -187,7 +187,7 @@ const Modal = ({
 
                   {/*  */}
                   <div className="flex flex-col md:w-full md:mt-1">
-                    <div className="pt-[10px] pl-1 md:pl-0 text-2xl leading-[35px] font-bold md:text-[33px] font-nunito">
+                    <div className="pt-[10px] pl-1 md:pl-0 text-2xl leading-[35px] font-bold md:text-[33px]">
                       {titleList2}
                     </div>
                     <ul

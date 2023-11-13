@@ -25,7 +25,7 @@ const Section2 = () => {
             >
               Querido viajero y sembrador en el tiempo,
             </div>
-            <div className="flex flex-col px-2 md:p-0 pr-3 gap-4 font-normal text-base md:text-lg leading-[21px] md:leading-[25px] font-nunito md:w-[520px]">
+            <div className="flex flex-col px-2 md:p-0 pr-3 gap-4 font-normal text-base md:text-lg leading-[21px] md:leading-[25px] md:w-[520px]">
               <p>
                 Si sientes que ya es hora de que despiertes a tu verdadero
                 potencial, que te permitas florecer en la plenitud de tu ser,

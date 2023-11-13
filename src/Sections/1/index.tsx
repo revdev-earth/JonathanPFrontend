@@ -29,13 +29,13 @@ const Section1 = () => {
           <div className="text-[26px] md:text-5xl font-gopher font-bold leading-[30px] md:leading-[54px]">
             ¡Descubre tu resplandor!
           </div>
-          <div className="md:w-[795px] font-nunito font-semibold text-base md:text-2xl leading-[21px] md:leading-[30px] text-justify">
+          <div className="md:w-[795px] font-semibold text-base md:text-2xl leading-[21px] md:leading-[30px] text-justify">
             A través de este enfoque innovador y revolucionario que te
             acompañara hacia la revelación de tu luz interior y desbloqueara el
             potencial oculto de tu ser para que disfrutes de una vida con
             propósito.
           </div>
-          <div className=" md:mt-3 py-2 px-2 md:px-5 bg-[#2ABA64] text-base text-center font-bold font-nunito rounded-md tracking-[.15em]">
+          <div className=" md:mt-3 py-2 px-2 md:px-5 bg-[#2ABA64] text-base text-center font-bold rounded-md tracking-[.15em]">
             INVERTIR EN MI CRECIMIENTO
           </div>
         </div>
