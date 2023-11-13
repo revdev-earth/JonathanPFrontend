@@ -35,27 +35,48 @@ const Card = ({
   imgSrc,
   title,
   content,
+  favorite,
 }: {
   imgSrc: string;
   title: string;
   content: string;
+  favorite?: boolean;
 }) => {
   return (
     <div
-      className="
+      className={`
             flex flex-col relative
-            items-center
-            h-[315px] w-[330px]
+            items-center w-[330px]
+            ${favorite ? "h-[355px]" : "h-[315px]"} 
             overflow-hidden rounded-xl
-          "
+          `}
     >
       <img src={imgSrc} alt={title} />
 
-      <div className="absolute min-h-[170px] bottom-0 text-white bg-[#092435] px-[18px] py-[9px]">
-        <div className=" font-bold bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-xl">
+      <div
+        className={`
+          absolute min-h-[170px] bottom-0 text-white 
+          px-[18px] py-[9px] pb-[18px]
+          ${
+            favorite
+              ? "bg-gradient-to-t from-[#2ABA64] to-[#3369FF]"
+              : "bg-[#092435]"
+          } 
+        `}
+      >
+        <div
+          className={`
+            font-bold text-xl
+            ${
+              favorite
+                ? "text-black"
+                : `bg-clip-text text-transparent bg-gradient-to-r from-[#2ABA64] to-[#3369FF]`
+            } 
+          `}
+        >
           {title}
         </div>
-        <div className="text-[13px]">{content}</div>
+        <div className={"text-[13px]"}>{content}</div>
       </div>
     </div>
   );
@@ -138,7 +159,7 @@ const Section4 = () => {
             items-center
           "
         >
-          <Card {...CardsInfo[2]} />
+          <Card {...CardsInfo[2]} favorite />
         </div>
         <div
           className="
