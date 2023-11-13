@@ -1,3 +1,5 @@
+import "./style.css";
+
 const CardsInfo = [
   {
     imgSrc: "/section4/bg-1-section-4.png",
@@ -44,19 +46,19 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`
-            flex flex-col relative
-            items-center w-[330px]
-            ${favorite ? "h-[355px]" : "h-[315px]"} 
-            overflow-hidden rounded-xl shadow-[0_0_30px_0_rgba(0,0,0,0.25)]
-          `}
+      className={` card-s4 cursor-pointer
+        flex flex-col relative group
+        items-center w-[330px]
+        ${favorite ? "h-[355px]" : "h-[315px]"} 
+        overflow-hidden rounded-xl shadow-[0_0_30px_0_rgba(0,0,0,0.25)]
+      `}
     >
-      <img src={imgSrc} alt={title} />
+      <img className="relative hover:image" src={imgSrc} alt={title} />
 
       <div
         className={`
-          absolute min-h-[170px] bottom-0 text-white 
-          px-[18px] py-[9px] pb-[18px]
+          absolute min-h-[170px] bottom-0 text-white hover:text
+          px-[18px] py-[9px] pb-[18px] cursor-pointer
           ${
             favorite
               ? "bg-gradient-to-t from-[#2ABA64] to-[#3369FF]"
@@ -66,7 +68,7 @@ const Card = ({
       >
         <div
           className={`
-            font-bold text-xl
+            font-bold text-xl cursor-pointer
             ${
               favorite
                 ? "text-black"
@@ -76,7 +78,7 @@ const Card = ({
         >
           {title}
         </div>
-        <div className={"text-[13px]"}>{content}</div>
+        <div className="text-[13px] cursor-pointer">{content}</div>
       </div>
     </div>
   );
