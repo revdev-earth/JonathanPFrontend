@@ -240,7 +240,7 @@ const Footer = () => {
           bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
         "
       >
-        ©2023 Conecta tu propósito. All rights reserved
+        ©2023 Jonathan Perez. All rights reserved
       </div>
     </div>
   );
