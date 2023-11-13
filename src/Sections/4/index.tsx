@@ -48,7 +48,7 @@ const Card = ({
             flex flex-col relative
             items-center w-[330px]
             ${favorite ? "h-[355px]" : "h-[315px]"} 
-            overflow-hidden rounded-xl
+            overflow-hidden rounded-xl shadow-[0_0_30px_0_rgba(0,0,0,0.25)]
           `}
     >
       <img src={imgSrc} alt={title} />
