@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         gopher: ["Gopher", "sans"],
-        nunito: ["nunito", "sans-serif"],
+        nunito: ["Nunito Sans", "sans-serif"],
       },
     },
   },
