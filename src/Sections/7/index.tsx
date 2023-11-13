@@ -107,11 +107,11 @@ const Section7 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-1 md:gap-[12px]
+            flex flex-col gap-1 md:gap-[22px]
             px-[15px] md:px-0
             mt-1 md:mt-5
           text-white
-            md:text-[27px]
+            md:text-[22px]
           "
         >
           <label htmlFor="name">
