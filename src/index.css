@@ -20,6 +20,10 @@
   box-sizing: content-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div {
   cursor: default;
 }
