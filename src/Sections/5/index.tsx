@@ -48,8 +48,10 @@ const CardsInfo = [
 ];
 
 const mobileCards = [CardsInfo[1], CardsInfo[0], CardsInfo[2]];
+const mobileMobileData = [ModalData[1], ModalData[0], ModalData[2]];
 const xs = window.innerWidth <= 390;
 const Cards = xs ? mobileCards : CardsInfo;
+const Data = xs ? mobileMobileData : ModalData;
 
 const Card = ({
   text1,
@@ -203,7 +205,7 @@ const Section5 = () => {
       </div>
 
       {showModal && typeof numberModal !== "undefined" && (
-        <Modal {...{ ...ModalData[numberModal], closeModal }} />
+        <Modal {...{ ...Data[numberModal], closeModal }} />
       )}
     </div>
   );
