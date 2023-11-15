@@ -35,8 +35,8 @@ const Section1 = () => {
             potencial oculto de tu ser para que disfrutes de una vida con
             propósito.
           </div>
-          <div className=" md:mt-3 py-2 px-2 md:px-5 bg-[#2ABA64] text-base text-center font-bold rounded-md tracking-[.15em]">
-            INVERTIR EN MI CRECIMIENTO
+          <div className="md:mt-3 py-2 px-2 md:px-5 bg-[#2ABA64] text-base text-center font-bold uppercase rounded-md tracking-[.15em]">
+            Invertir en mi crecimiento
           </div>
         </div>
       </div>

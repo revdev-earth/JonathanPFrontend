@@ -123,7 +123,7 @@ const Section3 = () => {
         <button
           className="
             inline-block uppercase h-10 text-center 
-            mx-4 md:m-0 md:w-auto px-4 
+            mx-4 md:m-0 md:w-auto px-4 font-bold
             tracking-[.15em] md:tracking-[.35em] md:text-base 
             border-2 rounded-md border-[#2ABA64] 
           "

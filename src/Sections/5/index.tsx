@@ -125,7 +125,7 @@ const Card = ({
             ))}
           </ul>
         </div>
-        <div className="flex flex-col gap-[13px] w-full px-[32px] mt-[10px] mb-[28px]">
+        <div className="flex flex-col gap-[13px] w-full px-[32px] mt-[10px] mb-[28px] font-bold">
           <button
             onClick={openModal}
             className="bg-[#09202E] w-full h-[40px] rounded-md shadow-lg"
