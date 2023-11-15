@@ -93,6 +93,8 @@ const Card = ({
   );
 };
 
+const halfTheWidth = window.innerWidth / 2;
+
 const Section4 = () => {
   return (
     <div
@@ -103,26 +105,29 @@ const Section4 = () => {
         gap-5 md:gap-[40px]
       "
     >
-      <div className="absolute md:w-[500px] md:h-[500px] left-1/2 -translate-x-1/2 top-1/4">
+      <div
+        className={`absolute md:w-[350px] md:h-[570px] top-[333px]`}
+        style={{ left: halfTheWidth - 175 + "px" }}
+      >
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex left-[331px] top-[344px] h-[83px]"
+          className="absolute hidden md:flex left-0 top-0 h-[83px]"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex left-[572px] top-[344px] h-[83px] -scale-x-100"
+          className="absolute hidden md:flex top-0 right-0 -scale-x-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex left-[331px] top-[813px] h-[83px] -scale-y-100"
+          className="absolute hidden md:flex bottom-0 left-0 h-[83px] -scale-y-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex left-[572px] top-[813px] h-[83px] -scale-x-100 -scale-y-100"
+          className="absolute hidden md:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
         />
       </div>
 
