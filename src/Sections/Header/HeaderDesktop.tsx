@@ -45,7 +45,7 @@ const HeaderDesktop = () => {
           </a>
         </div>
         <a
-          href="/"
+          href="#intro"
           className="flex items-center uppercase px-6 h-10 border-2 rounded-md border-[#2ABA64]"
         >
           Asesoria - Free

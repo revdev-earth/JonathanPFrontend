@@ -1,6 +1,7 @@
 const Section3 = () => {
   return (
     <div
+      id="intro"
       className="
         relative m-5 md:m-0 mt-2 py-12 pb-7 md:py-16 md:pb-[68px] md:px-24 
         md:min-h-[800px] bg-[#092435] 
