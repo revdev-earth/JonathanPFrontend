@@ -33,6 +33,8 @@ const CardsInfo = [
   },
 ];
 
+const xs = window.innerWidth <= 390;
+
 const Card = ({
   imgSrc,
   title,
@@ -157,7 +159,7 @@ const Section4 = () => {
             items-center
           "
         >
-          <Card {...CardsInfo[2]} favorite />
+          {!xs && <Card {...CardsInfo[2]} favorite />}
         </div>
         <div
           className="
@@ -167,6 +169,8 @@ const Section4 = () => {
         >
           <Card {...CardsInfo[3]} />
           <Card {...CardsInfo[4]} />
+
+          {xs && <Card {...CardsInfo[2]} favorite />}
         </div>
       </div>
     </div>
