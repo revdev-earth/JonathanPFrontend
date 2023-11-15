@@ -20,14 +20,16 @@ const Footer = () => {
               mt-[35px] md:mt-0
             "
           >
-            <img
-              src="/footer/logo-footer.png"
-              alt="logo footer"
-              className="
-                w-[250px] 
-                md:w-[487px] md:h-[152px]
-              "
-            />
+            <a href="/">
+              <img
+                src="/footer/logo-footer.png"
+                alt="logo footer"
+                className="
+                  w-[250px] 
+                  md:w-[487px] md:h-[152px]
+                "
+              />
+            </a>
           </div>
 
           <div className="flex">
