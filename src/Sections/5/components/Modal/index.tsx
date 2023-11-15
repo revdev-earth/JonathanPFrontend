@@ -86,7 +86,7 @@ const Modal = ({
             ${
               favorite
                 ? "bg-gradient-to-r from-[#2ABA64] to-[#3369FF]"
-                : "bg-[#122E3F]"
+                : "bg-[#09202E]"
             }
             flex items-center h-[32px] md:h-[63px] md:w-full
           `}
