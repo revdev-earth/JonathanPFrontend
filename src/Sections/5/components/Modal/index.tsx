@@ -75,11 +75,14 @@ const Modal = ({
       <div
         className=" absolute z-10 overflow-hidden
         bg-[#122E3F] text-[#FFFEFA] 
-          -top-1/2 translate-y-[47%] mt-10 
           w-[350px] md:w-[1340.8px] 
           rounded-2xl md:rounded-[20px]
-          h-screen max-h-[98vh] md:max-h-[95vh] 
+          max-h-[98vh] md:max-h-[94vh] 
         "
+        style={{
+          top: "50%",
+          transform: "translateY(-50%)",
+        }}
       >
         <div
           className={`
@@ -107,7 +110,13 @@ const Modal = ({
             </div>
           )}
         </div>
-        <div className="p-4 md:px-[40px] md:py-[26px] h-[94vh] md:h-[83vh]">
+
+        <div
+          className={`
+            p-4 md:px-[40px] md:py-[26px] h-[94vh] 
+            ${window.innerHeight < 863 ? "md:max-h-[78vh]" : "md:max-h-[742px]"}
+          `}
+        >
           <div className="flex flex-col gap-9  md:gap-[0px] overflow-auto h-full">
             {/* Intro */}
             <div className="flex flex-col md:flex-row md:gap-[93px]">
