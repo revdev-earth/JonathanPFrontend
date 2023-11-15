@@ -107,7 +107,7 @@ const Section7 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-1 md:gap-[22px]
+            flex flex-col gap-[8px] md:gap-[22px]
             px-[15px] md:px-0
             mt-1 md:mt-5
           text-white
@@ -162,7 +162,7 @@ const Section7 = () => {
               id="tel"
               className="
                 w-full bg-[#FAFAFA] rounded-md 
-                h-[120px] md:h-[190px] 
+                h-[111px] md:h-[190px] 
                 border-2 border-[#122E3F]
                 text-[#071E2C] px-[7px]
               "
@@ -172,13 +172,11 @@ const Section7 = () => {
           <button
             className="
                 flex justify-center items-center
-                text-[11px] md:text-[16px] font-bold
-                rounded-md 
-                h-[24px] md:h-[40px] 
-                w-[185px] md:w-[320px] 
-                m-auto
-                bg-[#09202E]
-                mt-[10px] md:mt-[16px]
+                text-[13px] md:text-[16px] font-bold
+                bg-[#09202E] rounded-md 
+                h-[28px] md:h-[40px] 
+                w-full md:w-[320px] 
+                m-auto md:mt-[16px]
               "
           >
             Enviar
