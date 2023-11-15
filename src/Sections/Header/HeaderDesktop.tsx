@@ -1,7 +1,7 @@
 const HeaderDesktop = () => {
   return (
     <div
-      className="flex items-center justify-between
+      className="flex items-center justify-between font-semibold
         h-[120px] lg:px-24 px-[20px] bg-[#092435]
       "
     >
