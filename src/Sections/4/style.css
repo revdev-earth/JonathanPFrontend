@@ -56,3 +56,11 @@
 .card-s4:hover .hover\:text {
   animation: textAnimation1 0.3s ease-in-out forwards;
 }
+
+.default-card-section-4-image {
+  transform: translateY(-33%) scale(1.2);
+}
+
+.default-card-section-4-text {
+  opacity: 1;
+}

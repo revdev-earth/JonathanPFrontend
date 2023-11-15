@@ -55,11 +55,18 @@ const Card = ({
         overflow-hidden rounded-xl shadow-[0_0_30px_0_rgba(0,0,0,0.25)]
       `}
     >
-      <img className="relative hover:image" src={imgSrc} alt={title} />
+      <img
+        className={`relative ${
+          !xs ? "hover:image" : "default-card-section-4-image"
+        }`}
+        src={imgSrc}
+        alt={title}
+      />
 
       <div
         className={`
-          absolute min-h-[170px] bottom-0 text-white hover:text
+          absolute min-h-[170px] bottom-0 text-white
+          ${!xs ? "hover:text" : "default-card-section-4-text"}
           px-[18px] py-[9px] pb-[18px] cursor-pointer
           ${
             favorite
