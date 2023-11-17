@@ -72,7 +72,7 @@ const Card = ({
     <div
       className={`
         bg-[#122E3F] rounded-2xl
-        md:min-h-[600px] md:w-[395px]
+        lg:min-h-[600px] lg:w-[395px]
         overflow-hidden shadow-lg
       `}
     >
@@ -80,7 +80,7 @@ const Card = ({
         <div
           className="
             flex justify-center items-center h-[36px] 
-            md:text-[18px] font-bold
+            lg:text-[18px] font-bold
             bg-[#2ABA64] text-[#122E3F]
           "
         >
@@ -94,13 +94,13 @@ const Card = ({
         className="
           flex flex-col
           items-center
-          py-[12px] md:py-[18px]
+          py-[12px] lg:py-[18px]
         "
       >
-        <div className="text-[15px] md:text-[17px]">{text1}</div>
+        <div className="text-[15px] lg:text-[17px]">{text1}</div>
         <div
           className="
-            mt-[4px] text-[28px] md:text-[32px] font-gopher font-bold
+            mt-[4px] text-[28px] lg:text-[32px] font-gopher font-bold
             bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-transparent bg-clip-text
           "
         >
@@ -108,15 +108,15 @@ const Card = ({
         </div>
         <div className="mt-[14px] text-[38px] font-bold">${price}</div>
 
-        <div className="px-[32px] mt-[8px] md:mt-[16px]">
+        <div className="px-[32px] mt-[8px] lg:mt-[16px]">
           <div className="h-[1px] bg-[#09202E] w-full" />
           <ul
             className="
               flex flex-col 
-              gap-[9px] md:gap-[15px]
+              gap-[9px] lg:gap-[15px]
               px-[20px] py-[19px]
-              md:pl-[28px] md:py-[22px] 
-              text-[14px] md:text-[16px] list-disc
+              lg:pl-[28px] lg:py-[22px] 
+              text-[14px] lg:text-[16px] list-disc
               leading-[18px]
             "
           >
@@ -166,7 +166,7 @@ const Section5 = () => {
     <div
       className="
         flex flex-col 
-        py-[36px] md:py-[98px] md:pb-[131px]
+        py-[36px] lg:py-[98px] lg:pb-[131px]
         gap-[14px]
         bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
       "
@@ -175,8 +175,8 @@ const Section5 = () => {
         id="planes"
         className="
           font-gopher
-          md:w-3/4 m-auto px-10
-          text-[24px] md:text-6xl 
+          lg:w-3/4 m-auto px-10
+          text-[24px] lg:text-6xl 
           leading-[26px]
           text-center font-bold
         "
@@ -186,10 +186,10 @@ const Section5 = () => {
 
       <div
         className="
-          flex flex-col md:grid md:grid-cols-3 
-          items-center md:items-end 
-          gap-[22px] md:gap-[26px] m-auto
-          px-[20px] md:mt-[42px]
+          flex flex-col lg:grid lg:grid-cols-3 
+          items-center lg:items-end 
+          gap-[22px] lg:gap-[26px] m-auto
+          px-[20px] lg:mt-[42px]
           text-[#FFFAEB] w-fit 
         "
       >

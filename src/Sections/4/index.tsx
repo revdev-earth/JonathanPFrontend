@@ -101,64 +101,64 @@ const Section4 = () => {
       id="metodo"
       className="
         relative flex flex-col min-h-[800px] 
-        py-1 pb-[35px] md:py-[88px] md:pb-[100px] 
-        gap-5 md:gap-[40px]
+        py-1 pb-[35px] lg:py-[88px] lg:pb-[100px] 
+        gap-5 lg:gap-[40px]
       "
     >
       <div
-        className={`absolute md:w-[350px] md:h-[570px] top-[333px]`}
+        className={`absolute lg:w-[350px] lg:h-[570px] top-[333px]`}
         style={{ left: halfTheWidth - 175 + "px" }}
       >
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex left-0 top-0 h-[83px]"
+          className="absolute hidden lg:flex left-0 top-0 h-[83px]"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex top-0 right-0 -scale-x-100"
+          className="absolute hidden lg:flex top-0 right-0 -scale-x-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex bottom-0 left-0 h-[83px] -scale-y-100"
+          className="absolute hidden lg:flex bottom-0 left-0 h-[83px] -scale-y-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden md:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
+          className="absolute hidden lg:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
         />
       </div>
 
       <div
         className=" 
           w-max m-auto text-center 
-          text-2xl md:text-6xl font-bold tracking-[.04rem] md:tracking-[.10rem]
+          text-2xl lg:text-6xl font-bold tracking-[.04rem] lg:tracking-[.10rem]
         "
       >
         <div
           className=" 
           relative after:content-[''] after:absolute 
-          after:bottom-[0px] md:after:bottom-[-10px] after:left-0  
-          after:h-[6px] md:after:h-[10px] after:w-full
+          after:bottom-[0px] lg:after:bottom-[-10px] after:left-0  
+          after:h-[6px] lg:after:h-[10px] after:w-full
           after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF] "
         >
           Método de transformación
         </div>
-        <div className="md:mt-4">enfocado en descubrir:</div>
+        <div className="lg:mt-4">enfocado en descubrir:</div>
       </div>
 
       <div
         className="
           grid gap-5
-          md:flex m-auto md:gap-[36px]
+          lg:flex m-auto lg:gap-[36px]
           items-center mt-1
         "
       >
         <div
           className="
-            flex flex-col gap-5 md:gap-[68px]
+            flex flex-col gap-5 lg:gap-[68px]
             items-center
           "
         >
@@ -175,7 +175,7 @@ const Section4 = () => {
         </div>
         <div
           className="
-            flex flex-col gap-5 md:gap-[68px]
+            flex flex-col gap-5 lg:gap-[68px]
             items-center
           "
         >

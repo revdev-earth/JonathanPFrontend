@@ -74,31 +74,31 @@ const Section6 = () => {
     <div
       className="
         flex flex-col 
-        gap-6 md:gap-[62px] min-h-[500px] 
-        py-5 md:py-[73px]
+        gap-6 lg:gap-[62px] min-h-[500px] 
+        py-5 lg:py-[73px]
         pb-[7px]
       "
     >
       <div
         className="
           font-gopher font-bold
-          text-[27px] md:text-[60px]
+          text-[27px] lg:text-[60px]
           w-fit m-auto
         "
       >
         Transformaciones
         <div
           className=" w-full 
-            h-[5px] md:h-[10px]
-            -mt-[3px] md:-mt-[11px]
+            h-[5px] lg:h-[10px]
+            -mt-[3px] lg:-mt-[11px]
             bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
           "
         />
       </div>
       <div
         className="
-          grid md:grid-cols-3 
-          gap-10 md:gap-8
+          grid lg:grid-cols-3 
+          gap-10 lg:gap-8
           w-fit m-auto
         "
       >
