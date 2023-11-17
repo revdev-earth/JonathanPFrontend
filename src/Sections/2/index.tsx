@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="p-[17px] pt-[50px] md:px-[38px] md:pt-[93px] lg:p-[100px] lg:py-[140px] lg:pb-[95px]">
+    <div className="p-[17px] pt-[50px] md:px-[38px] md:pt-[93px] md:pb-[62px] lg:p-[100px] lg:py-[140px] lg:pb-[95px]">
       <div>
         <div
           className=" relative flex flex-col lg:flex-row font-bold bg-[#092435] text-white
