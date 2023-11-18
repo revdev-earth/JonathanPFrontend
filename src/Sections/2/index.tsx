@@ -61,7 +61,7 @@ const Section2 = () => {
               <button
                 className="
                   flex items-center justify-center uppercase text-center
-                  mx-4 md:m-0 w-full md:w-auto px-4 h-10 font-bold
+                  w-full md:w-auto px-4 h-10 font-bold
                   border-2 rounded-md border-[#2ABA64] tracking-[.15em]
                 "
               >

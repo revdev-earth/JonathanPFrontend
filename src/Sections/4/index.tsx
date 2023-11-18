@@ -33,7 +33,7 @@ const CardsInfo = [
   },
 ];
 
-const xs = window.innerWidth <= 390;
+const lg = window.innerWidth <= 1024;
 
 const Card = ({
   imgSrc,
@@ -57,7 +57,7 @@ const Card = ({
     >
       <img
         className={`relative ${
-          !xs ? "hover:image" : "default-card-section-4-image"
+          !lg ? "hover:image" : "default-card-section-4-image"
         }`}
         src={imgSrc}
         alt={title}
@@ -66,7 +66,7 @@ const Card = ({
       <div
         className={`
           absolute min-h-[170px] bottom-0 text-white
-          ${!xs ? "hover:text" : "default-card-section-4-text"}
+          ${!lg ? "hover:text" : "default-card-section-4-text"}
           px-[18px] py-[9px] pb-[18px] cursor-pointer
           ${
             favorite
@@ -101,8 +101,8 @@ const Section4 = () => {
       id="metodo"
       className="
         relative flex flex-col min-h-[800px] 
-        py-1 pb-[35px] lg:py-[88px] lg:pb-[100px] 
-        gap-5 lg:gap-[40px]
+        py-1 pb-[35px] md:pt-[46px] lg:py-[88px] lg:pb-[100px] 
+        gap-5 md:gap-[37px] lg:gap-[40px]
       "
     >
       <div
@@ -133,8 +133,10 @@ const Section4 = () => {
 
       <div
         className=" 
-          w-max m-auto text-center 
-          text-2xl lg:text-6xl font-bold tracking-[.04rem] lg:tracking-[.10rem]
+          w-max m-auto text-center font-bold
+          text-2xl md:text-[45px] lg:text-6xl
+          tracking-[.04rem] lg:tracking-[.10rem]
+          md:leading-[42px]
         "
       >
         <div
@@ -151,8 +153,8 @@ const Section4 = () => {
 
       <div
         className="
-          grid gap-5
-          lg:flex m-auto lg:gap-[36px]
+          hidden lg:flex gap-5
+          m-auto lg:gap-[36px]
           items-center mt-1
         "
       >
@@ -165,14 +167,16 @@ const Section4 = () => {
           <Card {...CardsInfo[0]} />
           <Card {...CardsInfo[1]} />
         </div>
+
         <div
           className="
-            flex flex-col gap-10
-            items-center
-          "
+              flex flex-col gap-10
+              items-center
+            "
         >
-          {!xs && <Card {...CardsInfo[2]} favorite />}
+          <Card {...CardsInfo[2]} favorite />
         </div>
+
         <div
           className="
             flex flex-col gap-5 lg:gap-[68px]
@@ -181,9 +185,31 @@ const Section4 = () => {
         >
           <Card {...CardsInfo[3]} />
           <Card {...CardsInfo[4]} />
-
-          {xs && <Card {...CardsInfo[2]} favorite />}
         </div>
+      </div>
+
+      <div className="hidden md:flex lg:hidden flex-col items-center md:gap-[25px] ">
+        <div className="flex md:gap-[25px]">
+          <div className="flex flex-col md:gap-[25px]">
+            <Card {...CardsInfo[0]} />
+            <Card {...CardsInfo[1]} />
+          </div>
+          <div className="flex flex-col md:gap-[25px]">
+            <Card {...CardsInfo[3]} />
+            <Card {...CardsInfo[4]} />
+          </div>
+        </div>
+        <div>
+          <Card {...CardsInfo[2]} favorite />
+        </div>
+      </div>
+
+      <div className="flex md:hidden flex-col items-center gap-[20px]">
+        <Card {...CardsInfo[0]} />
+        <Card {...CardsInfo[1]} />
+        <Card {...CardsInfo[3]} />
+        <Card {...CardsInfo[4]} />
+        <Card {...CardsInfo[2]} favorite />
       </div>
     </div>
   );
