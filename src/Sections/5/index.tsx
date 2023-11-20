@@ -49,7 +49,7 @@ const CardsInfo = [
 
 const mobileCards = [CardsInfo[1], CardsInfo[0], CardsInfo[2]];
 const mobileMobileData = [ModalData[1], ModalData[0], ModalData[2]];
-const xs = window.innerWidth <= 390;
+const xs = window.innerWidth <= 1024;
 const Cards = xs ? mobileCards : CardsInfo;
 const Data = xs ? mobileMobileData : ModalData;
 
@@ -72,14 +72,14 @@ const Card = ({
     <div
       className={`
         bg-[#122E3F] rounded-2xl
-        lg:min-h-[600px] lg:w-[395px]
+        lg:min-h-[600px] md:w-[584px] lg:w-[395px]
         overflow-hidden shadow-lg
       `}
     >
       {recommended ? (
         <div
           className="
-            flex justify-center items-center h-[36px] 
+            flex justify-center items-center h-[36px] md:h-[32px]
             lg:text-[18px] font-bold
             bg-[#2ABA64] text-[#122E3F]
           "
@@ -94,10 +94,12 @@ const Card = ({
         className="
           flex flex-col
           items-center
-          py-[12px] lg:py-[18px]
+          py-[12px] md:pb-0 lg:py-[18px]
         "
       >
-        <div className="text-[15px] lg:text-[17px]">{text1}</div>
+        <div className="text-[15px] md:text-sm lg:text-[17px] md:tracking-[.08rem]">
+          {text1}
+        </div>
         <div
           className="
             mt-[4px] text-[28px] lg:text-[32px] font-gopher font-bold
@@ -108,16 +110,17 @@ const Card = ({
         </div>
         <div className="mt-[14px] text-[38px] font-bold">${price}</div>
 
-        <div className="px-[32px] mt-[8px] lg:mt-[16px]">
+        <div className="px-[32px] md:px-[15px] mt-[8px] lg:mt-[16px]">
           <div className="h-[1px] bg-[#09202E] w-full" />
           <ul
             className="
-              flex flex-col 
+              flex flex-col items-center
               gap-[9px] lg:gap-[15px]
-              px-[20px] py-[19px]
+              px-[20px] py-[19px] md:pb-[14px]
+              w-full text-center
               lg:pl-[28px] lg:py-[22px] 
               text-[14px] lg:text-[16px] list-disc
-              leading-[18px]
+              leading-[18px] box-border
             "
           >
             {list.map((text, index) => (
@@ -125,7 +128,7 @@ const Card = ({
             ))}
           </ul>
         </div>
-        <div className="flex flex-col gap-[13px] w-full px-[32px] mt-[10px] mb-[28px] font-bold">
+        <div className="flex flex-col gap-[13px] w-full md:w-[350px] px-[32px] mt-[10px] mb-[28px] font-bold">
           <button
             onClick={openModal}
             className="bg-[#09202E] w-full h-[40px] rounded-md shadow-lg"
@@ -175,9 +178,9 @@ const Section5 = () => {
         id="planes"
         className="
           font-gopher
-          lg:w-3/4 m-auto px-10
-          text-[24px] lg:text-6xl 
-          leading-[26px]
+          lg:w-3/4 m-auto px-10 md:pt-1 md:w-[540px]
+          text-[24px] md:text-[32px] lg:text-6xl 
+          leading-[26px] md:leading-[32px]
           text-center font-bold
         "
       >
@@ -188,7 +191,7 @@ const Section5 = () => {
         className="
           flex flex-col lg:grid lg:grid-cols-3 
           items-center lg:items-end 
-          gap-[22px] lg:gap-[26px] m-auto
+          gap-[22px] md:gap-8 lg:gap-[26px] m-auto md:mt-3
           px-[20px] lg:mt-[42px]
           text-[#FFFAEB] w-fit 
         "
