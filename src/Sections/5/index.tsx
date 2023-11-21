@@ -72,7 +72,7 @@ const Card = ({
     <div
       className={`
         bg-[#122E3F] rounded-2xl
-        lg:min-h-[600px] md:w-[584px] lg:w-[395px]
+        xl:min-h-[600px] md:w-[584px] xl:w-[395px]
         overflow-hidden shadow-lg
       `}
     >
@@ -80,7 +80,7 @@ const Card = ({
         <div
           className="
             flex justify-center items-center h-[36px] md:h-[32px]
-            lg:text-[18px] font-bold
+            xl:text-[18px] font-bold
             bg-[#2ABA64] text-[#122E3F]
           "
         >
@@ -94,15 +94,15 @@ const Card = ({
         className="
           flex flex-col
           items-center
-          py-[12px] md:pb-0 lg:py-[18px]
+          py-[12px] md:pb-0 xl:py-[18px]
         "
       >
-        <div className="text-[15px] md:text-sm lg:text-[17px] md:tracking-[.08rem]">
+        <div className="text-[15px] md:text-sm xl:text-[17px] md:tracking-[.08rem]">
           {text1}
         </div>
         <div
           className="
-            mt-[4px] text-[28px] lg:text-[32px] font-gopher font-bold
+            mt-[4px] text-[28px] xl:text-[32px] font-gopher font-bold
             bg-gradient-to-r from-[#2ABA64] to-[#3369FF] text-transparent bg-clip-text
           "
         >
@@ -110,16 +110,16 @@ const Card = ({
         </div>
         <div className="mt-[14px] text-[38px] font-bold">${price}</div>
 
-        <div className="px-[32px] md:px-[15px] mt-[8px] lg:mt-[16px]">
+        <div className="px-[32px] md:px-[15px] mt-[8px] xl:mt-[16px]">
           <div className="h-[1px] bg-[#09202E] w-full" />
           <ul
             className="
               flex flex-col items-center
-              gap-[9px] lg:gap-[15px]
+              gap-[9px] xl:gap-[15px]
               px-[20px] py-[19px] md:pb-[14px]
               w-full text-center
-              lg:pl-[28px] lg:py-[22px] 
-              text-[14px] lg:text-[16px] list-disc
+              xl:pl-[28px] xl:py-[22px] 
+              text-[14px] xl:text-[16px] list-disc
               leading-[18px] box-border
             "
           >
@@ -169,7 +169,7 @@ const Section5 = () => {
     <div
       className="
         flex flex-col 
-        py-[36px] lg:py-[98px] lg:pb-[131px]
+        py-[36px] xl:py-[98px] xl:pb-[131px]
         gap-[14px]
         bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
       "
@@ -178,8 +178,8 @@ const Section5 = () => {
         id="planes"
         className="
           font-gopher
-          lg:w-3/4 m-auto px-10 md:pt-1 md:w-[540px]
-          text-[24px] md:text-[32px] lg:text-6xl 
+          xl:w-3/4 m-auto px-10 md:pt-1 md:w-[540px]
+          text-[24px] md:text-[32px] xl:text-6xl 
           leading-[26px] md:leading-[32px]
           text-center font-bold
         "
@@ -189,10 +189,10 @@ const Section5 = () => {
 
       <div
         className="
-          flex flex-col lg:grid lg:grid-cols-3 
-          items-center lg:items-end 
-          gap-[22px] md:gap-8 lg:gap-[26px] m-auto md:mt-3
-          px-[20px] lg:mt-[42px]
+          flex flex-col xl:grid xl:grid-cols-3 
+          items-center xl:items-end 
+          gap-[22px] md:gap-8 xl:gap-[26px] m-auto md:mt-3
+          px-[20px] xl:mt-[42px]
           text-[#FFFAEB] w-fit 
         "
       >

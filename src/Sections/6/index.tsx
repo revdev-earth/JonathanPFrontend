@@ -74,23 +74,23 @@ const Section6 = () => {
     <div
       className="
         flex flex-col 
-        gap-6 lg:gap-[62px] min-h-[500px] 
-        py-5 lg:py-[73px]
+        gap-6 xl:gap-[62px] min-h-[500px] 
+        py-5 xl:py-[73px]
         pb-[7px]
       "
     >
       <div
         className="
           font-gopher font-bold
-          text-[27px] md:text-[43px] lg:text-[60px]
+          text-[27px] md:text-[43px] xl:text-[60px]
           w-fit m-auto
         "
       >
         Transformaciones
         <div
           className=" w-full 
-            h-[5px] lg:h-[10px]
-            -mt-[3px] lg:-mt-[11px]
+            h-[5px] xl:h-[10px]
+            -mt-[3px] xl:-mt-[11px]
             bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
           "
         />
@@ -98,8 +98,8 @@ const Section6 = () => {
       <div
         className="
           flex flex-wrap justify-center
-          lg:grid lg:grid-cols-3 
-          gap-10 lg:gap-8
+          xl:grid xl:grid-cols-3 
+          gap-10 xl:gap-8
           w-fit m-auto
         "
       >

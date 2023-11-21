@@ -6,13 +6,13 @@ const HeaderMobile = () => {
   return (
     <div className="flex flex-col font-semibold">
       <div className="flex items-center justify-between bg-[#092435] h-[88px] px-[20px] md:px-[40px]">
-        <div className="flex items-center gap-[18px] lg:gap-[30px]">
-          <div className="w-[111px] lg:w-[178px] h-[69px] lg:h-[111px]">
+        <div className="flex items-center gap-[18px] xl:gap-[30px]">
+          <div className="w-[111px] xl:w-[178px] h-[69px] xl:h-[111px]">
             <a href="/">
               <img src="/header/logo.png" alt="logo" />
             </a>
           </div>
-          <div className="flex gap-[13px] lg:gap-[21px] h-[13px] lg:h-[20px]">
+          <div className="flex gap-[13px] xl:gap-[21px] h-[13px] xl:h-[20px]">
             <a
               href="https://www.linkedin.com/in/jonathan-perez-medina-17614a231/"
               target="_blank"

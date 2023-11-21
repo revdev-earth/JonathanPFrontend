@@ -101,66 +101,66 @@ const Section4 = () => {
       id="metodo"
       className="
         relative flex flex-col min-h-[800px] 
-        py-1 pb-[35px] md:pt-[46px] lg:py-[88px] lg:pb-[100px] 
-        gap-5 md:gap-[37px] lg:gap-[40px]
+        py-1 pb-[35px] md:pt-[46px] xl:py-[88px] xl:pb-[100px] 
+        gap-5 md:gap-[37px] xl:gap-[40px]
       "
     >
       <div
-        className={`absolute lg:w-[350px] lg:h-[570px] top-[333px]`}
+        className={`absolute xl:w-[350px] xl:h-[570px] top-[333px]`}
         style={{ left: halfTheWidth - 175 + "px" }}
       >
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden lg:flex left-0 top-0 h-[83px]"
+          className="absolute hidden xl:flex left-0 top-0 h-[83px]"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden lg:flex top-0 right-0 -scale-x-100"
+          className="absolute hidden xl:flex top-0 right-0 -scale-x-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden lg:flex bottom-0 left-0 h-[83px] -scale-y-100"
+          className="absolute hidden xl:flex bottom-0 left-0 h-[83px] -scale-y-100"
         />
         <img
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
-          className="absolute hidden lg:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
+          className="absolute hidden xl:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
         />
       </div>
 
       <div
         className=" 
           w-max m-auto text-center font-bold
-          text-2xl md:text-[45px] lg:text-6xl
-          tracking-[.04rem] lg:tracking-[.10rem]
+          text-2xl md:text-[45px] xl:text-6xl
+          tracking-[.04rem] xl:tracking-[.10rem]
           md:leading-[42px]
         "
       >
         <div
           className=" 
           relative after:content-[''] after:absolute 
-          after:bottom-[0px] lg:after:bottom-[-10px] after:left-0  
-          after:h-[6px] lg:after:h-[10px] after:w-full
+          after:bottom-[0px] xl:after:bottom-[-10px] after:left-0  
+          after:h-[6px] xl:after:h-[10px] after:w-full
           after:bg-gradient-to-r after:from-[#2ABA64] after:to-[#3369FF] "
         >
           Método de transformación
         </div>
-        <div className="lg:mt-4">enfocado en descubrir:</div>
+        <div className="xl:mt-4">enfocado en descubrir:</div>
       </div>
 
       <div
         className="
-          hidden lg:flex gap-5
-          m-auto lg:gap-[36px]
+          hidden xl:flex gap-5
+          m-auto xl:gap-[36px]
           items-center mt-1
         "
       >
         <div
           className="
-            flex flex-col gap-5 lg:gap-[68px]
+            flex flex-col gap-5 xl:gap-[68px]
             items-center
           "
         >
@@ -179,7 +179,7 @@ const Section4 = () => {
 
         <div
           className="
-            flex flex-col gap-5 lg:gap-[68px]
+            flex flex-col gap-5 xl:gap-[68px]
             items-center
           "
         >
@@ -188,7 +188,7 @@ const Section4 = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex lg:hidden flex-col items-center md:gap-[25px] ">
+      <div className="hidden md:flex xl:hidden flex-col items-center md:gap-[25px] ">
         <div className="flex md:gap-[25px]">
           <div className="flex flex-col md:gap-[25px]">
             <Card {...CardsInfo[0]} />
