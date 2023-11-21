@@ -82,7 +82,7 @@ const Section6 = () => {
       <div
         className="
           font-gopher font-bold
-          text-[27px] lg:text-[60px]
+          text-[27px] md:text-[43px] lg:text-[60px]
           w-fit m-auto
         "
       >
@@ -97,7 +97,8 @@ const Section6 = () => {
       </div>
       <div
         className="
-          grid lg:grid-cols-3 
+          flex flex-wrap justify-center
+          lg:grid lg:grid-cols-3 
           gap-10 lg:gap-8
           w-fit m-auto
         "
