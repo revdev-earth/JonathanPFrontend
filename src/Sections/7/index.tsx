@@ -3,7 +3,9 @@ const Section7 = () => {
     <div
       id="interactuemos"
       className="
-        flex flex-col lg:flex-row-reverse
+        flex flex-col
+        md:grid md:grid-cols-2
+        lg:flex lg:flex-row-reverse
         gap-[28px]  lg:gap-[45px] 
         px-[21px]   lg:px-[58px]
         py-[30px]   lg:py-[72px] lg:pb-[148px]
