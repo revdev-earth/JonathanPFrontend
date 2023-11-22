@@ -5,8 +5,8 @@ const Section2 = () => {
     <div className="p-[17px] pt-[50px] md:px-[38px] md:pt-[93px] md:pb-[62px] xl:p-[100px] xl:py-[140px] xl:pb-[95px]">
       <div>
         <div
-          className=" relative flex flex-col xl:flex-row font-bold bg-[#092435] text-white
-            rounded-xl xl:rounded-3xl gap-[25px] md:gap-[53px]
+          className=" relative flex flex-col xl:flex-row font-bold bg-[#051B28] text-white
+            rounded-xl xl:rounded-3xl gap-[25px] md:gap-[53px] lg:gap-[66px]
             p-4 pt-8 pb-[42px] md:px-12 md:pt-20 xl:px-14 xl:pr-8 xl:py-20 xl:pb-16 
           "
         >
@@ -25,9 +25,9 @@ const Section2 = () => {
             ¡¡ Toma acción y responsabilidad, no es <br className="md:hidden" />{" "}
             casualidad que hayas llegado hasta aquí!!
           </div>
-          <div className="flex flex-col gap-4 md:gap-[28px] xl:gap-[17px] w-full">
+          <div className="flex flex-col gap-4 md:gap-[28px] xl:gap-[17px] w-full lg:w-[566px]">
             <div
-              className="font-gopher md:pr-9
+              className="font-gopher md:pr-9 lg:pr-0
                 text-3xl md:text-[42px] md:leading-[50px] xl:text-[42px] leading-[30px] xl:leading-[54px] 
                 xl:w-[520px]
                 bg-clip-text text-transparent bg-gradient-to-r from-[#2ABA64] to-[#3369FF]
@@ -37,7 +37,7 @@ const Section2 = () => {
             </div>
             <div
               className="
-                flex flex-col gap-4 md:gap-[17px] font-normal xl:w-[520px]
+                flex flex-col gap-4 md:gap-[17px] font-normal  xl:w-[513px]
                 px-2 pr-3 md:px-0 xl:p-0 
                 text-base md:text-[18px] xl:text-lg 
                 leading-[21px] md:leading-[25px] xl:leading-[25px] 
@@ -71,7 +71,7 @@ const Section2 = () => {
               </button>
             </div>
           </div>
-          <div className="pl-1 w-full h-[600px] box-content xl:p-0 rounded-2xl overflow-hidden">
+          <div className=" pl-1 w-full  h-[600px] lg:h-[453px] box-content xl:p-0 rounded-2xl overflow-hidden ">
             <InlineWidget url="https://calendly.com/revione/meet-us?hide_event_type_details=1&hide_gdpr_banner=1" />
           </div>
         </div>
