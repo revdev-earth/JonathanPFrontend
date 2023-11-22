@@ -1,3 +1,5 @@
+import { InlineWidget } from "react-calendly";
+
 const Section2 = () => {
   return (
     <div className="p-[17px] pt-[50px] md:px-[38px] md:pt-[93px] md:pb-[62px] xl:p-[100px] xl:py-[140px] xl:pb-[95px]">
@@ -69,12 +71,8 @@ const Section2 = () => {
               </button>
             </div>
           </div>
-          <div className="pl-1 w-full box-content xl:p-0">
-            <img
-              src="/section2/schedule.png"
-              alt="schedule"
-              className="w-full xl:w-[565px]"
-            />
+          <div className="pl-1 w-full h-[600px] box-content xl:p-0 rounded-2xl overflow-hidden">
+            <InlineWidget url="https://calendly.com/revione/meet-us?hide_event_type_details=1&hide_gdpr_banner=1" />
           </div>
         </div>
       </div>
