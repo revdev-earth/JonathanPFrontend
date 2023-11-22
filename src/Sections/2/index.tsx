@@ -71,7 +71,7 @@ const Section2 = () => {
               </button>
             </div>
           </div>
-          <div className=" pl-1 w-full  h-[600px] lg:h-[453px] box-content xl:p-0 rounded-2xl overflow-hidden ">
+          <div className=" pl-1 w-full h-[490px] md:h-[600px] xl:h-[453px] box-content xl:p-0 rounded-2xl overflow-hidden lg:overflow-visible ">
             <InlineWidget url="https://calendly.com/revione/meet-us?hide_event_type_details=1&hide_gdpr_banner=1" />
           </div>
         </div>
