@@ -97,14 +97,14 @@ const Section3 = () => {
             className="
               flex flex-col xl:flex-row items-center box-content
               gap-3 xl:gap-7 
-              px-5 md:px-0 xl:px-[18px] pr-2 
+              px-5 md:px-0 lg:px-[18px] xl:p-0 pr-2 
               text-base font-normal leading-[21px]
             "
           >
             <div
               className="
                 flex justify-center items-center mr-3 xl:mt-2
-                w-[223px] md:w-full 
+                w-[223px] md:w-full xl:w-[200px]
                 h-[122px]  md:h-[156px]
                 xl:min-w-[399px] xl:min-h-[218px] bg-[#FFFAEB] rounded-lg
               "
