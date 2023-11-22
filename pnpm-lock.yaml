@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  "@paypal/react-paypal-js":
+    specifier: ^8.1.3
+    version: 8.1.3(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -498,6 +501,39 @@ packages:
       "@nodelib/fs.scandir": 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@paypal/paypal-js@7.1.0:
+    resolution:
+      {
+        integrity: sha512-Bp656jfxZF2Q1bz0v+YvA1nO5Tcyb6HmB2Yud+zx4ks5hWi1lLSNPLSaYcwuVJiqrxNs/GWKUOSyVetpzBEbrg==,
+      }
+    dependencies:
+      promise-polyfill: 8.3.0
+    dev: false
+
+  /@paypal/react-paypal-js@8.1.3(react-dom@18.2.0)(react@18.2.0):
+    resolution:
+      {
+        integrity: sha512-hEm27iYP/UHS3XPBhDdiK2U4PH1FxrOD5O3f9tstAVLJd82l/laCjq751HiESSm63PVOoFeKE41Fe1mYGab+oA==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      "@paypal/paypal-js": 7.1.0
+      "@paypal/sdk-constants": 1.0.133
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@paypal/sdk-constants@1.0.133:
+    resolution:
+      {
+        integrity: sha512-NWV0IWrHwQQrNLaUYxQ1GsytvHbDu+x63kRpNJfw1OQeDcUca4B0I4LoBktWQl5gICi090hD56n2Wg08dAl44g==,
+      }
+    dependencies:
+      hi-base32: 0.5.1
+    dev: false
 
   /@swc/core-darwin-arm64@1.3.95:
     resolution:
@@ -1638,6 +1674,13 @@ packages:
       function-bind: 1.1.2
     dev: true
 
+  /hi-base32@0.5.1:
+    resolution:
+      {
+        integrity: sha512-EmBBpvdYh/4XxsnUybsPag6VikPYnN30td+vQk+GI3qpahVEG9+gTkG0aXVxTjBqQ5T6ijbWIu77O+C5WFWsnA==,
+      }
+    dev: false
+
   /husky@8.0.3:
     resolution:
       {
@@ -2201,6 +2244,13 @@ packages:
     engines: { node: ">=14" }
     hasBin: true
     dev: true
+
+  /promise-polyfill@8.3.0:
+    resolution:
+      {
+        integrity: sha512-H5oELycFml5yto/atYqmjyigJoAo3+OXwolYiH7OfQuYlAqhxNvTfiNMbV9hsC6Yp83yE5r2KTVmtrG6R9i6Pg==,
+      }
+    dev: false
 
   /punycode@2.3.1:
     resolution:

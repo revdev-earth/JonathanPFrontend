@@ -17,7 +17,40 @@ export interface ModalDataInterface {
   titleList2: string;
   list2: string[];
   text3: string;
+  unit: Unit;
 }
+
+export interface Unit {
+  description: string;
+  amount: {
+    currency_code: string;
+    value: string;
+  };
+}
+
+export const units = [
+  {
+    description: "Iluminación Propia",
+    amount: {
+      currency_code: "USD",
+      value: "597",
+    },
+  },
+  {
+    description: "Fotosíntesis Humana",
+    amount: {
+      currency_code: "USD",
+      value: "897",
+    },
+  },
+  {
+    description: "Recursos Ilimitados",
+    amount: {
+      currency_code: "USD",
+      value: "597",
+    },
+  },
+];
 
 export const ModalData = [
   {
@@ -57,6 +90,7 @@ export const ModalData = [
     ],
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+    unit: units[0],
   },
   {
     favorite: true,
@@ -99,6 +133,7 @@ export const ModalData = [
     ],
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+    unit: units[1],
   },
   {
     title: "Recursos Ilimitados",
@@ -135,5 +170,6 @@ export const ModalData = [
     ],
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+    unit: units[2],
   },
 ];

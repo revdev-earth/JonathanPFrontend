@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Modal from "./components/Modal";
-import { ModalData } from "./components/ModalData";
+import { ModalData, Unit, units } from "./components/ModalData";
+import PayPal from "./components/PayPal";
 
 const CardsInfo = [
   {
@@ -16,6 +17,7 @@ const CardsInfo = [
       "Las ideas que tienes en tu mente no son saludables para ti.",
     ],
     recommended: false,
+    unit: units[0],
   },
   {
     text1: "Programa de 10 Sesiones",
@@ -31,6 +33,7 @@ const CardsInfo = [
       "Te encuentras en una zona de confort y no sabes cómo salir de ella.",
     ],
     recommended: true,
+    unit: units[1],
   },
   {
     text1: "Programa de 6 Sesiones",
@@ -44,6 +47,7 @@ const CardsInfo = [
       "No sabes cuales son los mecanismos y las herramientas para una vida más prospera y abundante.",
     ],
     recommended: false,
+    unit: units[2],
   },
 ];
 
@@ -59,6 +63,7 @@ const Card = ({
   price,
   list,
   recommended,
+  unit,
   openModal,
 }: {
   text1: string;
@@ -66,6 +71,7 @@ const Card = ({
   price: number;
   list: string[];
   recommended: boolean;
+  unit: Unit;
   openModal: () => void;
 }) => {
   return (
@@ -139,7 +145,8 @@ const Card = ({
             <button className="h-[38px] border border-[#346AFF] rounded-md">
               Debito / credito
             </button>
-            <button className="h-[40px] border border-[#2ABA64] rounded-md">
+            <button className="h-[40px] border border-[#2ABA64] rounded-md relative">
+              <PayPal unit={unit} />
               Paypal
             </button>
           </div>

@@ -1,4 +1,5 @@
 import { ModalDataInterface } from "../ModalData";
+import PayPal from "../PayPal";
 
 const TextComponent = (
   text: string,
@@ -54,6 +55,7 @@ const Modal = ({
   titleList2,
   list2,
   text3,
+  unit,
   closeModal,
 }: ModalInterface) => {
   return (
@@ -261,6 +263,7 @@ const Modal = ({
                     Debito / credito
                   </button>
                   <button className="h-[36px] xl:h-[40px] xl:w-[337px] border border-[#2ABA64] rounded-md">
+                    <PayPal unit={unit} />
                     Paypal
                   </button>
                 </div>
