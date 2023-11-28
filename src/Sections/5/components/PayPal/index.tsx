@@ -2,8 +2,7 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { Unit } from "../ModalData";
 
 const initialOptions = {
-  clientId:
-    "ATeyyXq6CY10l1xrOlxuibbBsHmRX5f60xcWcNBoLmhOWeWHdJcldWp_qhvQl_KsZS55oe41Phx0Hoit",
+  clientId: import.meta.env.VITE_ID_PP,
   currency: "USD",
   commit: true,
 };
