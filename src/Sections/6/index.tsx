@@ -2,19 +2,19 @@ const CardsInformation = [
   {
     content:
       "Jonathan solo quería pasar a agradecerte por cada una de las palabras de apoyo que me has dado en todo este proceso de encontrarme conmigo misma, por siempre escucharme y desde tu conocimiento y sabiduría saberme guiar y darle luz a ese sendero que muchas veces seguía oculto para mi.",
-    name: "Juan Esteban Reyes",
+    name: "Daniela",
     profesion: "Psicoterapia",
   },
   {
     content:
       "Conocer a la persona detrás del proceso de coaching te lleva a ver un mundo diferente, te lleva a interiorizar todo aquello que deseas cumplir en tu vida, mirando tu presente pero proyectado al futuro. Jonathan es una excelente persona y tiene mucha calidad humana, una experiencia que todos deberíamos vivir.",
-    name: "Giovanny Acevedo",
+    name: "Giovanny",
     profesion: "33 años",
   },
   {
     content:
       "Jonathan, hola! Quería agradecerte por el apoyo que me has dado a través del conocimiento que has adquirido, el acompañamiento en este Cre-Ser interior y despertar a tener una conexión con el presente, el estar mas enfocada en objetivos marcados, a Encontrar en conjunto el propósito de vida que va más allá de lo laboral.",
-    name: "Juan Esteban Reyes",
+    name: "Luisa",
     profesion: "Psicoterapia",
   },
 ];
