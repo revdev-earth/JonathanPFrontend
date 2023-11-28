@@ -221,26 +221,43 @@ const Modal = ({
                 />
 
                 <div className="my-8 xl:my-0 xl:m-0 flex items-center  gap-5  xl:gap-[18px]  h-full">
-                  <img
-                    src="/header/linkedin.png"
-                    alt="Linkedin"
-                    className="xl:h-[20px]"
-                  />
-                  <img
-                    src="/header/instagram.png"
-                    alt="Instagram"
-                    className="xl:h-[20px]"
-                  />
-                  <img
-                    src="/header/facebook.png"
-                    alt="facebook"
-                    className="xl:h-[20px]"
-                  />
-                  <img
-                    src="/header/tiktok.png"
-                    alt="Tiktok"
-                    className="xl:h-[20px]"
-                  />
+                  <a
+                    href="https://www.linkedin.com/in/jonathan-perez-medina-17614a231/"
+                    target="_blank"
+                  >
+                    <img
+                      src="/header/linkedin.png"
+                      alt="Linkedin"
+                      className="xl:h-[20px]"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/jonaperezme/"
+                    target="_blank"
+                  >
+                    <img
+                      src="/header/instagram.png"
+                      alt="Instagram"
+                      className="xl:h-[20px]"
+                    />
+                  </a>
+                  <a href="https://www.facebook.com/JonaPerezM" target="_blank">
+                    <img
+                      src="/header/facebook.png"
+                      alt="facebook"
+                      className="xl:h-[20px]"
+                    />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@jonaperezme?lang=es"
+                    target="_blank"
+                  >
+                    <img
+                      src="/header/tiktok.png"
+                      alt="Tiktok"
+                      className="xl:h-[20px]"
+                    />
+                  </a>
                 </div>
               </div>
 

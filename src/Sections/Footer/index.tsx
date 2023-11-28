@@ -184,9 +184,7 @@ const Footer = () => {
                     <img
                       src="/header/linkedin.png"
                       alt="Linkedin"
-                      className="
-                        scale-50 xl:scale-100
-                      "
+                      className="scale-50 xl:scale-100"
                     />
                   </a>
                   <a
@@ -196,18 +194,14 @@ const Footer = () => {
                     <img
                       src="/header/instagram.png"
                       alt="Instagram"
-                      className="
-                        scale-50 xl:scale-100
-                      "
+                      className="scale-50 xl:scale-100"
                     />
                   </a>
                   <a href="https://www.facebook.com/JonaPerezM" target="_blank">
                     <img
                       src="/header/facebook.png"
                       alt="facebook"
-                      className="
-                        scale-50 xl:scale-100
-                      "
+                      className="scale-50 xl:scale-100"
                     />
                   </a>
                   <a
@@ -217,9 +211,7 @@ const Footer = () => {
                     <img
                       src="/header/tiktok.png"
                       alt="Tiktok"
-                      className="
-                        scale-50 xl:scale-100
-                      "
+                      className="scale-50 xl:scale-100"
                     />
                   </a>
                 </li>
