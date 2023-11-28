@@ -93,8 +93,6 @@ const Card = ({
   );
 };
 
-const halfTheWidth = window.innerWidth / 2;
-
 const Section4 = () => {
   return (
     <div
@@ -107,7 +105,7 @@ const Section4 = () => {
     >
       <div
         className={`absolute xl:w-[350px] xl:h-[570px] top-[333px]`}
-        style={{ left: halfTheWidth - 175 + "px" }}
+        style={{ left: window.innerWidth / 2 - 175 + "px" }}
       >
         <img
           src="/section4/vector-section-4.png"
@@ -128,6 +126,22 @@ const Section4 = () => {
           src="/section4/vector-section-4.png"
           alt="puntos de coneccion"
           className="absolute hidden xl:flex bottom-0 right-0 h-[83px] -scale-x-100 -scale-y-100"
+        />
+      </div>
+
+      <div
+        className="absolute bottom-[220px] w-[620px] h-[112px] m-auto hidden md:flex xl:hidden"
+        style={{ left: window.innerWidth / 2 - 312 + "px" }}
+      >
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute rotate-90 -scale-y-100 left-0 top-0"
+        />
+        <img
+          src="/section4/vector-section-4.png"
+          alt="puntos de coneccion"
+          className="absolute rotate-90 right-0 top-0"
         />
       </div>
 
