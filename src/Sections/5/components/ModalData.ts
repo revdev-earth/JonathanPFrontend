@@ -5,8 +5,6 @@ export interface ModalDataInterface {
   priceText: string;
   subtitle: string;
   text1: string[];
-  question: string;
-  answer: string;
   text2: string;
   preferentWords: {
     blue: string[];
@@ -59,12 +57,10 @@ export const ModalData = [
     priceText: "Programa de 6 Sesiones",
     subtitle: "Estas transformaciones se realizan...",
     text1: [
-      "Por medio de una Sesión online personalizada, de entre 60 a 90 minutos, en una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, lo podrás realizar desde cualquier parte del mundo.",
-      "Necesitamos un espacio seguro para ti, sin interrupciones, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• 6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
+      "•  Acompañamiento personalizado. Seré tu Coach y Mentor Personal durante las semanas de tu transformación. Contarás con mi apoyo y podrás comunicarte conmigo cuanto desees vía e-mail y WhatsApp para atender tus consultas.",
     ],
-    question: "¿Qué obtienes?",
-    answer:
-      "6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
     text2:
       "Este entrenamiento tiene como base nutrir tu autoestima y amor por ti mismo, experimentarás un mayor control interno, lo que desencadenará pensamientos más saludables, sentimientos más auténticos y acciones más significativas.",
     preferentWords: {
@@ -99,12 +95,10 @@ export const ModalData = [
     priceText: "Programa de 10 Sesiones",
     subtitle: "Estas transformaciones se realizan...",
     text1: [
-      "Por medio de una Sesión online personalizada, de entre 60 a 90 minutos, en una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, lo podrás realizar desde cualquier parte del mundo.",
-      "Necesitamos un espacio seguro para ti, sin interrupciones, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• 10 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
+      "•  Acompañamiento personalizado. Seré tu Coach y Mentor Personal durante las semanas de tu transformación. Contarás con mi apoyo y podrás comunicarte conmigo cuanto desees vía e-mail y WhatsApp para atender tus consultas.",
     ],
-    question: "¿Qué obtienes?",
-    answer:
-      "10 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
     text2:
       "El método de transformación y acompañamiento que te guiara a encontrarte contigo mismo, a realizar esa transformación que tanto necesitas, explorando cuál es la verdad sobre ti mismo, Es hora de que despiertes a tu verdadero potencial, que te permitas florecer en la plenitud de tu ser.",
     preferentWords: {
@@ -141,12 +135,10 @@ export const ModalData = [
     priceText: "Programa de 6 Sesiones",
     subtitle: "Estas transformaciones se realizan...",
     text1: [
-      "Por medio de una Sesión online personalizada, de entre 60 a 90 minutos, en una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, lo podrás realizar desde cualquier parte del mundo.",
-      "Necesitamos un espacio seguro para ti, sin interrupciones, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
+      "• 6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
+      "•  Acompañamiento personalizado. Seré tu Coach y Mentor Personal durante las semanas de tu transformación. Contarás con mi apoyo y podrás comunicarte conmigo cuanto desees vía e-mail y WhatsApp para atender tus consultas.",
     ],
-    question: "¿Qué obtienes?",
-    answer:
-      "6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
     text2:
       "Bienvenido a nuestro excepcional Método de transformación, Un enfoque integral te brindará las herramientas necesarias para superar obstáculos y tomar medidas decisivas, allanando el camino hacia el éxito y la abundancia. ¡No te conformes con menos de lo que mereces!",
     preferentWords: {

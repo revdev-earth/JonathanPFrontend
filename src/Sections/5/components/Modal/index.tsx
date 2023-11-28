@@ -46,8 +46,6 @@ const Modal = ({
   priceText,
   subtitle,
   text1,
-  question,
-  answer,
   text2,
   preferentWords,
   titleList1,
@@ -153,23 +151,16 @@ const Modal = ({
             {/*  */}
             <div className="flex flex-col xl:flex-row xl:gap-[70px]">
               {/*  */}
-              <div className="flex flex-col mt-8 border border-[#09202E] rounded-3xl xl:w-[446px] xl:p-[0px] order-1 ">
-                <div className="mt-1 ml-5 mr-8 text-[22px] leading-[22px] font-bold text-[#346AFF] xl:text-[32px] xl:mr-10 xl:tracking-normal xl:leading-[32px]">
+              <div className="flex flex-col mt-8 border border-[#09202E] rounded-3xl xl:w-[446px] order-1 py-5">
+                <div className="ml-5 mr-8 text-[22px] leading-[22px] font-bold text-[#346AFF] xl:text-[32px] xl:mr-10 xl:tracking-normal xl:leading-[32px]">
                   {subtitle}
                 </div>
                 <div className="mt-5 xl:mt-[28px] xl:text-[18px] xl:leading-[20px] flex flex-col gap-2 xl:gap-[10px]">
                   {text1.map((text) => (
-                    <div className="mx-5 text-xs xl:text-lg font-semibold leading-[14px] xl:leading-[17px] text-justify">
+                    <div className="mx-5 text-xs xl:text-lg leading-[14px] xl:leading-[19px] text-justify">
                       {text}
                     </div>
                   ))}
-                </div>
-
-                <div className="mt-3  ml-[18px] xl:mt-[27px] text-[#2ABA64] text-[22px] tracking-[.000rem] xl:text-[29px] font-bold font-gopher">
-                  {question}
-                </div>
-                <div className="mt-[10px] mx-5 xl:mt-[18px] text-xs font-semibold leading-[14px] text-justify xl:text-[18px] xl:leading-[20px] xl:mb-[10px]">
-                  {answer}
                 </div>
               </div>
 
