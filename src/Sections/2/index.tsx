@@ -5,6 +5,7 @@ const Section2 = () => {
     <div className="p-[17px] pt-[50px] md:px-[38px] md:pt-[93px] md:pb-[62px] xl:p-[100px] xl:py-[140px] xl:pb-[95px]">
       <div>
         <div
+          id="asesoria"
           className=" relative flex flex-col xl:flex-row font-bold bg-[#051B28] text-white
             rounded-xl xl:rounded-3xl gap-[25px] md:gap-[53px] lg:gap-[66px]
             p-4 pt-8 pb-[42px] md:px-12 md:pt-20 xl:px-14 xl:pr-8 xl:py-20 xl:pb-16 

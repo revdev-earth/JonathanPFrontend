@@ -31,7 +31,7 @@ const HeaderDesktop = () => {
       </div>
 
       <div className="flex text-white gap-7 items-center text-xl">
-        <a href="#inicio">Inicio</a>
+        <a href="#intro">Intro</a>
         <a href="#metodo">Método</a>
         <a href="#planes">Planes</a>
         <a href="#interactuemos">Interactuemos</a>
@@ -45,7 +45,7 @@ const HeaderDesktop = () => {
           </a>
         </div>
         <a
-          href="#intro"
+          href="#asesoria"
           className="flex items-center uppercase px-6 h-10 border-2 rounded-md border-[#2ABA64]"
         >
           Asesoria - Free

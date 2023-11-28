@@ -47,7 +47,7 @@ const HeaderMobile = () => {
         `}
       >
         <div className="flex gap-[22px] text-[18px] mt-[20px]">
-          <a href="#inicio">Inicio</a>
+          <a href="#intro">Intro</a>
           <a href="#metodo">Método</a>
           <a href="#planes">Planes</a>
           <a href="#interactuemos">Interactuemos</a>
@@ -62,7 +62,7 @@ const HeaderMobile = () => {
           </a>
 
           <a
-            href="#intro"
+            href="#asesoria"
             className="flex items-center uppercase px-6 h-10 border-2 rounded-md border-[#2ABA64]"
           >
             Asesoria - Free
