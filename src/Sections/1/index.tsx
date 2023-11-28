@@ -41,8 +41,9 @@ const Section1 = () => {
             propósito.
           </div>
           <div
-            className=" bg-[#2ABA64] text-base text-center font-bold uppercase rounded-md
-              xl:mt-3 py-2 px-2 xl:px-5 tracking-[.15em] md:w-[334px]
+            className=" 
+              bg-[#2ABA64] text-base text-center font-bold uppercase rounded-md
+              xl:mt-3 py-2 px-2 tracking-[.15em] md:w-[334px]
             "
           >
             Invertir en mi crecimiento
