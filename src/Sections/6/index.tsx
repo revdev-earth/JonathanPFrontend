@@ -54,7 +54,7 @@ const Card = ({
       </div>
 
       <div className="p-4 flex flex-col gap-2 items-center bg-[#071E2C] text-white">
-        <img src="/section6/stars.png" alt="start" />
+        <img src="/section6/stars.svg" alt="start" />
         <div
           className="
             text-[24px]
