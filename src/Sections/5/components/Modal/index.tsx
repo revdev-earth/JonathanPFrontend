@@ -169,7 +169,7 @@ const Modal = ({
                 <div className="flex flex-col xl:flex-row xl:gap-[80px]">
                   {/*  */}
                   <div className="flex flex-col w-full pl-[5px] xl:pl-0 xl:pt-[14px]">
-                    <div className="text-2xl leading-[35px] tracking-[.02rem] xl:text-[33px]">
+                    <div className="font-bold text-2xl leading-[35px] tracking-[.02rem] xl:text-[33px]">
                       {titleList1}
                     </div>
                     <ul
