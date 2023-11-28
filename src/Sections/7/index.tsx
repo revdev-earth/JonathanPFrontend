@@ -4,8 +4,7 @@ const Section7 = () => {
       id="interactuemos"
       className="
         flex flex-col
-        md:grid md:grid-cols-2
-        xl:flex xl:flex-row-reverse
+        md:flex-row-reverse
         gap-[28px]  xl:gap-[45px] 
         px-[21px]   xl:px-[58px]
         py-[30px]   xl:py-[72px] xl:pb-[148px]
@@ -18,7 +17,7 @@ const Section7 = () => {
           py-[31px] xl:py-[38px]
           px-[16px] xl:px-[38px]
           shadow-2xl rounded-xl
-          xl:w-1/2
+          md:w-1/2
         "
       >
         <div className="text-center font-black text-[24px] xl:text-[42px] font-gopher w-fit m-auto">
@@ -95,22 +94,21 @@ const Section7 = () => {
           rounded-xl
           bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
           py-[25px]   xl:py-[35px] xl:pb-[45px] 
-          px-[40px]   xl:px-[95px]
-          xl:w-1/2
+          md:w-1/2
         "
       >
         <div
           className="
             text-[24px] xl:text-[41px] 
-            font-bold font-gopher
+            font-bold font-gopher text-center
           "
         >
-          Quieres decirnos algo?
+          ¿Quieres compartime algo?
         </div>
         <div
           className="
             flex flex-col gap-[8px] xl:gap-[22px]
-            px-[15px] xl:px-0
+            px-[50px] xl:px-[95px]
             mt-1 xl:mt-5
           text-white
             xl:text-[22px]
