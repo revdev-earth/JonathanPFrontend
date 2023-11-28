@@ -62,9 +62,7 @@ const Footer = () => {
                     <img
                       src="/footer/arrow-footer.svg"
                       alt="arrow footer"
-                      className="
-                      scale-50 xl:scale-100
-                    "
+                      className="scale-50 xl:scale-100"
                     />
                     Inicio
                   </a>
@@ -80,9 +78,7 @@ const Footer = () => {
                     <img
                       src="/footer/arrow-footer.svg"
                       alt="arrow footer"
-                      className="
-                    scale-50 xl:scale-100
-                  "
+                      className="scale-50 xl:scale-100"
                     />
                     Método
                   </a>
@@ -98,9 +94,7 @@ const Footer = () => {
                     <img
                       src="/footer/arrow-footer.svg"
                       alt="arrow footer"
-                      className="
-                    scale-50 xl:scale-100
-                  "
+                      className="scale-50 xl:scale-100"
                     />
                     Planes
                   </a>
@@ -116,9 +110,7 @@ const Footer = () => {
                     <img
                       src="/footer/arrow-footer.svg"
                       alt="arrow footer"
-                      className="
-                    scale-50 xl:scale-100
-                  "
+                      className="scale-50 xl:scale-100"
                     />
                     Interactuemos
                   </a>
@@ -129,90 +121,60 @@ const Footer = () => {
             <div
               className="
                 flex flex-col 
-                ml-[88px] xl:ml-[155px] 
+                ml-[60px] xl:ml-[155px] 
                 mt-[21px] xl:mt-[106px] 
-                gap-[8px] xl:gap-[16px]
+                gap-[16px]
               "
             >
-              <div
-                className="
-                  uppercase font-bold 
-                  text-[13px] xl:text-[22px]
-                "
-              >
+              <div className="uppercase font-bold text-[13px] xl:text-[22px]">
                 Contacto
               </div>
               <ul
                 className="
                   flex flex-col 
-                  gap-[9px] xl:gap-[15px]
+                  gap-[15px]
                   text-[12px] xl:text-[21px]
                 "
               >
                 <li>
-                  <a href="tel:+34657241310" className="flex xl:gap-[13px]">
-                    <img
-                      src="/footer/phone.svg"
-                      alt="phone"
-                      className="
-                      scale-50 xl:scale-100
-                    "
-                    />
+                  <a
+                    href="tel:+34657241310"
+                    className="flex gap-[8px] xl:gap-[13px]"
+                  >
+                    <img src="/footer/phone.svg" alt="phone" />
                     +34657241310
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:tucoach@conciencia11.com"
-                    className="flex xl:gap-[13px]"
+                    className="flex gap-[8px] xl:gap-[13px]"
                   >
-                    <img
-                      src="/footer/mail.svg"
-                      alt="mail"
-                      className="
-                      scale-50 xl:scale-100
-                    "
-                    />
+                    <img src="/footer/mail.svg" alt="mail" />
                     tucoach@conciencia11.com
                   </a>
                 </li>
-                <li className="flex gap-1 xl:gap-6 xl:mt-2">
+                <li className="flex gap-6 xl:mt-2">
                   <a
                     href="https://www.linkedin.com/in/jonathan-perez-medina-17614a231/"
                     target="_blank"
                   >
-                    <img
-                      src="/header/linkedin.png"
-                      alt="Linkedin"
-                      className="scale-50 xl:scale-100"
-                    />
+                    <img src="/header/linkedin.png" alt="Linkedin" />
                   </a>
                   <a
                     href="https://www.instagram.com/jonaperezme/"
                     target="_blank"
                   >
-                    <img
-                      src="/header/instagram.png"
-                      alt="Instagram"
-                      className="scale-50 xl:scale-100"
-                    />
+                    <img src="/header/instagram.png" alt="Instagram" />
                   </a>
                   <a href="https://www.facebook.com/JonaPerezM" target="_blank">
-                    <img
-                      src="/header/facebook.png"
-                      alt="facebook"
-                      className="scale-50 xl:scale-100"
-                    />
+                    <img src="/header/facebook.png" alt="facebook" />
                   </a>
                   <a
                     href="https://www.tiktok.com/@jonaperezme?lang=es"
                     target="_blank"
                   >
-                    <img
-                      src="/header/tiktok.png"
-                      alt="Tiktok"
-                      className="scale-50 xl:scale-100"
-                    />
+                    <img src="/header/tiktok.png" alt="Tiktok" />
                   </a>
                 </li>
               </ul>
