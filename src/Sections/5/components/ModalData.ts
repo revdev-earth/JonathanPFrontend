@@ -108,8 +108,8 @@ export const ModalData = [
     text2:
       "El método de transformación y acompañamiento que te guiara a encontrarte contigo mismo, a realizar esa transformación que tanto necesitas, explorando cuál es la verdad sobre ti mismo, Es hora de que despiertes a tu verdadero potencial, que te permitas florecer en la plenitud de tu ser.",
     preferentWords: {
-      blue: ["acompañamiento", "plenitud de tu ser."],
-      green: ["tu verdadero potencial."],
+      blue: ["acompañamiento", "plenitud de tu ser"],
+      green: ["tu verdadero potencial"],
     },
     titleList1: "Si te sientes así...",
     list1: [
