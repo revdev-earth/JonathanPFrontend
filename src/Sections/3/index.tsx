@@ -40,13 +40,13 @@ const Section3 = () => {
           "
         >
           <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
-            Emprendedor digital,
+            Emprendedor Digital,
           </div>
           <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
-            Especialista en Life Coaching,
+            Especialista en Crecimiento Personal,
           </div>
           <div className="bg-clip-text text-transparent  bg-gradient-to-r from-[#2ABA64] to-[#3369FF]">
-            Proyector de Vida, Formador.
+            Proyector de Vida y Formador.
           </div>
         </div>
 
