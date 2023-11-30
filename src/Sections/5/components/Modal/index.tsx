@@ -54,6 +54,7 @@ const Modal = ({
   list2,
   text3,
   unit,
+  stripe_link,
   closeModal,
 }: ModalInterface) => {
   return (
@@ -267,9 +268,13 @@ const Modal = ({
                   {text3}
                 </div>
                 <div className="mx-4 xl:mx-0 grid grid-cols-1 xl:grid-cols-2 xl:gap-[40px] xl:mt-[10px] gap-4">
-                  <button className="h-[36px] xl:h-[38px] xl:w-[337px] border border-[#346AFF] rounded-md">
+                  <a
+                    href={stripe_link}
+                    target="_blank"
+                    className="flex justify-center items-center h-[38px] border border-[#346AFF] rounded-md"
+                  >
                     Debito / credito
-                  </button>
+                  </a>
                   <button className="h-[36px] xl:h-[40px] xl:w-[337px] border border-[#2ABA64] rounded-md">
                     <PayPal unit={unit} />
                     Paypal

@@ -16,6 +16,7 @@ export interface ModalDataInterface {
   list2: string[];
   text3: string;
   unit: Unit;
+  stripe_link: string;
 }
 
 export interface Unit {
@@ -87,6 +88,7 @@ export const ModalData = [
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[0],
+    stripe_link: "https://buy.stripe.com/fZe01B8hU19e8jSbIJ",
   },
   {
     favorite: true,
@@ -128,6 +130,7 @@ export const ModalData = [
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[1],
+    stripe_link: "https://buy.stripe.com/eVa8y7gOqdW0as0288",
   },
   {
     title: "Recursos Ilimitados",
@@ -163,5 +166,6 @@ export const ModalData = [
     text3:
       "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[2],
+    stripe_link: "https://buy.stripe.com/aEUeWv55I7xCgQo146",
   },
 ];

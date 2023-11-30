@@ -18,6 +18,7 @@ const CardsInfo = [
     ],
     recommended: false,
     unit: units[0],
+    stripe_link: "https://buy.stripe.com/fZe01B8hU19e8jSbIJ",
   },
   {
     text1: "Programa de 10 Sesiones",
@@ -34,6 +35,7 @@ const CardsInfo = [
     ],
     recommended: true,
     unit: units[1],
+    stripe_link: "https://buy.stripe.com/eVa8y7gOqdW0as0288",
   },
   {
     text1: "Programa de 6 Sesiones",
@@ -48,6 +50,7 @@ const CardsInfo = [
     ],
     recommended: false,
     unit: units[2],
+    stripe_link: "https://buy.stripe.com/aEUeWv55I7xCgQo146",
   },
 ];
 
@@ -64,6 +67,7 @@ const Card = ({
   list,
   recommended,
   unit,
+  stripe_link,
   openModal,
 }: {
   text1: string;
@@ -72,6 +76,7 @@ const Card = ({
   list: string[];
   recommended: boolean;
   unit: Unit;
+  stripe_link: string;
   openModal: () => void;
 }) => {
   return (
@@ -142,9 +147,13 @@ const Card = ({
             Ver completo
           </button>
           <div className="grid grid-cols-2 gap-[13px]">
-            <button className="h-[38px] border border-[#346AFF] rounded-md">
+            <a
+              href={stripe_link}
+              target="_blank"
+              className="flex justify-center items-center h-[38px] border border-[#346AFF] rounded-md"
+            >
               Debito / credito
-            </button>
+            </a>
             <button className="h-[40px] border border-[#2ABA64] rounded-md relative">
               <PayPal unit={unit} />
               Paypal
