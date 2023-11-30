@@ -55,7 +55,7 @@ export const ModalData = [
     title: "Iluminación Propia",
     price: 597,
     priceText: "Programa de 6 Sesiones",
-    subtitle: "Estas transformaciones se realizan...",
+    subtitle: "Estas transformaciones se realizan y obtienes...",
     text1: [
       "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
       "• 6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
@@ -93,7 +93,7 @@ export const ModalData = [
     title: "Fotosíntesis Humana",
     price: 897,
     priceText: "Programa de 10 Sesiones",
-    subtitle: "Estas transformaciones se realizan...",
+    subtitle: "Estas transformaciones se realizan y obtienes...",
     text1: [
       "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
       "• 10 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
@@ -133,7 +133,7 @@ export const ModalData = [
     title: "Recursos Ilimitados",
     price: 597,
     priceText: "Programa de 6 Sesiones",
-    subtitle: "Estas transformaciones se realizan...",
+    subtitle: "Estas transformaciones se realizan y obtienes...",
     text1: [
       "• Es una videoconferencia en la plataforma Meet donde podrás elegir el horario que te quede más asequible, recuerda activar tu cámara y audio, Necesitamos un espacio seguro para ti, que te dé completa tranquilidad y seguridad para comunicarte.",
       "• 6 videollamadas privadas de entre 60 y 90 minutos con Jonathan Pérez. Las llamadas serán semanales o cada dos semanas.",
