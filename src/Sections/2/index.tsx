@@ -24,7 +24,7 @@ const Section2 = () => {
             "
           >
             ¡¡ Toma acción y responsabilidad, no es <br className="md:hidden" />{" "}
-            casualidad que hayas llegado hasta aquí!!
+            casualidad que hayas llegado hasta aquí !!
           </div>
           <div className="flex flex-col gap-4 md:gap-[28px] xl:gap-[17px] w-full lg:w-[566px]">
             <div

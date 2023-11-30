@@ -85,7 +85,7 @@ export const ModalData = [
       "Sentirás la fuerza interior para superar cualquier reto en tu vida.",
     ],
     text3:
-      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[0],
   },
   {
@@ -126,7 +126,7 @@ export const ModalData = [
       "Hacerte responsable de tu vida y tomar acción.",
     ],
     text3:
-      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[1],
   },
   {
@@ -161,7 +161,7 @@ export const ModalData = [
       "Te comprarías la casa que siempre has soñado.",
     ],
     text3:
-      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí!!",
+      "¡¡ Toma acción y responsabilidad, no es casualidad que hayas llegado hasta aquí !!",
     unit: units[2],
   },
 ];
