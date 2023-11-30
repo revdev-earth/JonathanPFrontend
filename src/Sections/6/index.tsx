@@ -3,7 +3,7 @@ const CardsInformation = [
     content:
       "Jonathan solo quería pasar a agradecerte por cada una de las palabras de apoyo que me has dado en todo este proceso de encontrarme conmigo misma, por siempre escucharme y desde tu conocimiento y sabiduría saberme guiar y darle luz a ese sendero que muchas veces seguía oculto para mi.",
     name: "Daniela",
-    profesion: "Psicoterapia",
+    profesion: "23 años",
   },
   {
     content:
@@ -15,7 +15,7 @@ const CardsInformation = [
     content:
       "Jonathan, hola! Quería agradecerte por el apoyo que me has dado a través del conocimiento que has adquirido, el acompañamiento en este Cre-Ser interior y despertar a tener una conexión con el presente, el estar mas enfocada en objetivos marcados, a Encontrar en conjunto el propósito de vida que va más allá de lo laboral.",
     name: "Luisa",
-    profesion: "Psicoterapia",
+    profesion: "30 años",
   },
 ];
 
