@@ -147,11 +147,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="mailto:tucoach@conciencia11.com"
+                    href="mailto:info@fotosintesishumana.com"
                     className="flex gap-[8px] xl:gap-[13px]"
                   >
                     <img src="/footer/mail.svg" alt="mail" />
-                    tucoach@conciencia11.com
+                    info@fotosintesishumana.com
                   </a>
                 </li>
                 <li className="flex gap-6 xl:mt-2">
