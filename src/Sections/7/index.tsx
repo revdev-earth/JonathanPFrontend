@@ -1,3 +1,5 @@
+import { Form } from "./components/Form";
+
 const Section7 = () => {
   return (
     <div
@@ -89,100 +91,7 @@ const Section7 = () => {
         />
       </div>
 
-      <div
-        className="
-          rounded-xl
-          bg-gradient-to-t from-[#2ABA64] to-[#3369FF]
-          py-[25px]   xl:py-[35px] xl:pb-[45px] 
-          md:w-1/2
-        "
-      >
-        <div
-          className="
-            text-[24px] xl:text-[41px] 
-            font-bold font-gopher text-center
-          "
-        >
-          ¿Quieres compartime algo?
-        </div>
-        <div
-          className="
-            flex flex-col gap-[8px] xl:gap-[22px]
-            px-[50px] xl:px-[95px]
-            mt-1 xl:mt-5
-          text-white
-            xl:text-[22px]
-          "
-        >
-          <label htmlFor="name">
-            <div>Nombre:</div>
-            <input
-              id="name"
-              type="text"
-              className="
-                w-full bg-[#FAFAFA] rounded-md 
-                h-[28px] xl:h-[46px]
-                border-2 border-[#122E3F]
-                text-[#071E2C] px-[7px]
-              "
-            />
-          </label>
-
-          <label htmlFor="email">
-            <div>Correo electronico:</div>
-            <input
-              id="email"
-              type="text"
-              className="
-                w-full bg-[#FAFAFA] rounded-md 
-                h-[28px] xl:h-[46px]
-                border-2 border-[#122E3F]
-                text-[#071E2C] px-[7px]
-              "
-            />
-          </label>
-
-          <label htmlFor="tel">
-            <div>Telefono:</div>
-            <input
-              id="tel"
-              type="text"
-              className="
-                w-full bg-[#FAFAFA] rounded-md 
-                h-[28px] xl:h-[46px]
-                border-2 border-[#122E3F]
-                text-[#071E2C] px-[7px]
-              "
-            />
-          </label>
-
-          <label htmlFor="tel">
-            <div>Tu mensaje (opcional)</div>
-            <textarea
-              id="tel"
-              className="
-                w-full bg-[#FAFAFA] rounded-md 
-                h-[111px] xl:h-[190px] 
-                border-2 border-[#122E3F]
-                text-[#071E2C] px-[7px]
-              "
-            />
-          </label>
-
-          <button
-            className="
-                flex justify-center items-center
-                text-[13px] xl:text-[16px] font-bold
-                bg-[#09202E] rounded-md 
-                h-[28px] xl:h-[40px] 
-                w-full xl:w-[320px] 
-                m-auto xl:mt-[16px]
-              "
-          >
-            Enviar
-          </button>
-        </div>
-      </div>
+      <Form />
     </div>
   );
 };

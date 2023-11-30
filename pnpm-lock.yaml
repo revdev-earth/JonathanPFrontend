@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  "@emailjs/browser":
+    specifier: ^3.11.0
+    version: 3.11.0
   "@paypal/react-paypal-js":
     specifier: ^8.1.3
     version: 8.1.3(react-dom@18.2.0)(react@18.2.0)
@@ -17,6 +20,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-hook-form:
+    specifier: ^7.48.2
+    version: 7.48.2(react@18.2.0)
 
 devDependencies:
   "@types/react":
@@ -84,6 +90,14 @@ packages:
       }
     engines: { node: ">=10" }
     dev: true
+
+  /@emailjs/browser@3.11.0:
+    resolution:
+      {
+        integrity: sha512-RkY3FKZ3fPdK++OeF46mRTFpmmQWCHUVHZH209P3NE4D5sg2Atg7S2wa3gw5062Gl4clt4Wn5SyC4WhlVZC5pA==,
+      }
+    engines: { node: ">=14.0.0" }
+    dev: false
 
   /@esbuild/android-arm64@0.18.20:
     resolution:
@@ -2292,6 +2306,18 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-hook-form@7.48.2(react@18.2.0):
+    resolution:
+      {
+        integrity: sha512-H0T2InFQb1hX7qKtDIZmvpU1Xfn/bdahWBN1fH19gSe4bBEqTfmlr7H3XWTaVtiK4/tpPaI1F3355GPMZYge+A==,
+      }
+    engines: { node: ">=12.22.0" }
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react@18.2.0:
