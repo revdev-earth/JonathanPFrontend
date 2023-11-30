@@ -64,7 +64,7 @@ const Footer = () => {
                       alt="arrow footer"
                       className="scale-50 xl:scale-100"
                     />
-                    Inicio
+                    Intro
                   </a>
                 </li>
                 <li>
