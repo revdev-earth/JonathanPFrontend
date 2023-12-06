@@ -110,7 +110,7 @@ export const Form = () => {
             id="message"
             aria-label="Mensaje"
             {...register("message")}
-            className={`w-full bg-[#FAFAFA] rounded-md h-[28px] xl:h-[46px] border-2 ${
+            className={`w-full bg-[#FAFAFA] rounded-md h-[120px] xl:h-[196px] border-2 ${
               errors.message ? "border-red-500" : "border-[#122E3F]"
             } text-[#071E2C] px-[7px]`}
           />
