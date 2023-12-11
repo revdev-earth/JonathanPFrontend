@@ -40,14 +40,15 @@ const Section1 = () => {
             potencial oculto de tu ser para que disfrutes de una vida con
             propósito.
           </div>
-          <div
+          <a
+            href="#planes"
             className=" 
               bg-[#2ABA64] text-base text-center font-bold uppercase rounded-md
               xl:mt-3 py-2 px-2 tracking-[.15em] md:w-[334px]
             "
           >
             Invertir en mi crecimiento
-          </div>
+          </a>
         </div>
       </div>
     </div>

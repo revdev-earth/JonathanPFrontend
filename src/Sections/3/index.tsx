@@ -140,16 +140,17 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-        <button
+        <a
+          href="#planes"
           className="
-            inline-block uppercase h-10 text-center 
+            flex items-center uppercase h-10 text-center 
             mx-4 xl:m-0 xl:w-auto px-4 font-bold
             tracking-[.15em] xl:tracking-[.35em] xl:text-base 
             border-2 rounded-md border-[#2ABA64] 
           "
         >
           Ver planes ahora
-        </button>
+        </a>
       </div>
     </div>
   );

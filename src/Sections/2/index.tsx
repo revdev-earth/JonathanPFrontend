@@ -61,7 +61,8 @@ const Section2 = () => {
               </p>
             </div>
             <div className="flex justify-center md:justify-start  xl:items-start xl:justify-start mt-3">
-              <button
+              <a
+                href="#planes"
                 className="
                   flex items-center justify-center uppercase text-center
                   w-full md:w-auto px-4 h-10 font-bold
@@ -69,7 +70,7 @@ const Section2 = () => {
                 "
               >
                 Quiero ver los planes
-              </button>
+              </a>
             </div>
           </div>
           <div className=" pl-1 w-full h-[490px] md:h-[600px] xl:h-[453px] box-content xl:p-0 rounded-2xl overflow-hidden">
